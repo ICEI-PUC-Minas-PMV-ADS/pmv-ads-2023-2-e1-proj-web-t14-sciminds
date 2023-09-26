@@ -10,8 +10,8 @@
 <th colspan="2">Perfil Estudantes Universitários </th>
 </tr>
 <tr>
-<td width="150px"><b>Descrição</b>Estudantes de curso superior ou equivalente.</td>
-<td width="600px"></td>
+<td width="150px"><b>Descrição</b></td>
+<td width="600px">Estudantes de curso superior ou equivalente. </td>
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
