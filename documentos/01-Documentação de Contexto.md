@@ -1,35 +1,20 @@
 # Introdução
 
-[Aqui a equipe deve criar um texto descritivo com a visão geral do problema abordado, apresentando o ambiente e as situações envolvidas no problema.]
+Destacando a importância do desenvolvimento da mente e do pensamento crítico por meio do aprendizado científico pensamos na criação de uma plataforma de aprendizado online sobre ciência se torna imperativa na realidade atual do Brasil. Isso é devido à necessidade urgente de democratizar o conhecimento científico, fornecer recursos educacionais de qualidade e preparar a população para os desafios do mercado de trabalho em constante evolução. A educação científica é essencial para tomada de decisões informadas e para o desenvolvimento da sociedade.
 
 ## Problema
-[Aqui a equipe deve fornecer uma descrição detalhada do problema a ser resolvido. Não é o momento adequado para abordar questões técnicas relacionadas ao desenvolvimento da aplicação. O objetivo é compreender e comunicar de maneira precisa qual é o desafio ou necessidade que motiva a criação da aplicação.]
 
-Este link pode ajudar a equipe a entender mais sobre definição do problema: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-
+Ao embarcar na criação dessa plataforma, nos deparamos com desafios significativos. A acessibilidade à internet, a qualidade do conteúdo e o engajamento dos usuários são problemas cruciais a serem enfrentados. Garantir que todos os brasileiros tenham acesso igualitário à educação científica de qualidade é uma preocupação, assim como a necessidade de manter os usuários motivados e engajados em um ambiente online
 
 ## Objetivos
 
-[Aqui a equipe deve realizar uma descrição detalhada dos objetivos do trabalho, ressaltando quais as questões principais do problema a serem resolvidas pelo projeto, não é a hora de apresentar requisitos detalhados.]
- 
-Este link pode ajudar a equipe a entender mais sobre definição dos objetivos: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
+O objetivo principal deste projeto é desenvolver e lançar uma plataforma de aprendizado online que seja acessível, envolvente e de alta qualidade, com o propósito de democratizar o conhecimento científico no Brasil.
 
 ## Justificativa
 
-[Aqui a equipe deve descrever a importância ou a motivação para trabalhar com o problema definido. Indique as razões pelas quais a equipe escolheu o problema e definiu os objetivos.
-
-Devem ser apresentados dados de fontes relevantes e confiáveis sobre o problema, inserindo-o como alvo de estudo. Sugere-se que a equipe utilize questionários, entrevistas e dados estatísticos, que devem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pela equipe.]
-
-Este link pode ajudar a equipe a formular a justificativa: [Como montar a justificativa.](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Este projeto é viável porque o acesso à tecnologia está em crescimento constante no Brasil, a pandemia de COVID-19 acelerou a demanda por educação online e a educação científica tem um impacto significativo na sociedade, capacitando as pessoas a tomarem decisões informadas e contribuírem para o progresso do país.
 
 ## Público-Alvo
 
-[Aqui é necessário descrever os atores envolvidos no problema, destacando os diferentes perfis de usuários. O propósito é apresentar as características, necessidades, conhecimentos prévios e experiência com a tecnologia do público-alvo.
-
-Sugere-se que a equipe utilize questionários e/ou entrevistas a fim de conhecer os atores que compõem o público alvo.]
-
-Os links abaixo podem ajudar a equipe a conhecer um pouco mais sobre o público-alvo. 
-
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
+O público-alvo inclui uma ampla variedade de pessoas, abrangendo diferentes faixas etárias e grupos demográficos. Com base em pesquisas e análises de mercado, observamos um interesse significativo em cursos de ciência online por parte de estudantes universitários que buscam recursos educacionais adicionais, profissionais que desejam aprimorar suas habilidades e conhecimentos científicos para melhorar suas perspectivas de carreira, educadores em busca de materiais de ensino enriquecedores e também aqueles que são movidos por uma curiosidade intrínseca pela ciência, independentemente de sua idade.
 
