@@ -1,25 +1,25 @@
 # Título do Projeto
 
-`CURSO`
+`ANALISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`DISCIPLINA`
+`PROJETO: DESESNEVOLVIMENTO FRONT-END`
 
-`SEMESTRE`
+`1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
+Destacando a importância do desenvolvimento da mente e do pensamento crítico por meio do aprendizado científico pensamos na criação de uma plataforma de aprendizado online sobre ciência se torna imperativa na realidade atual do Brasil. Isso é devido à necessidade urgente de democratizar o conhecimento científico, fornecer recursos educacionais de qualidade e preparar a população para os desafios do mercado de trabalho em constante evolução. A educação científica é essencial para tomada de decisões informadas e para o desenvolvimento da sociedade.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+GLEISON OLIVEIRA QUEIROZ
+VIVIANE DE JESUS RAMALHO
+DEBORA RAYANE DE ANDRADE CABRAL
+KAYQUE FAGUNDES
 * Nome completo do aluno 5
 * Nome completo do aluno 6
 
 ## Orientador
 
-* Nome completo do professor
+CLOVIS LEMOS TAVARES
 
 # Documentação
 
