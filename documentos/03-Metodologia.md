@@ -1,7 +1,7 @@
 
 # Metodologia
  
- Para o gerenciamento do projeto utilizamos o Trello, MarvelApp e o GitHub, pelo Trello com objetivos em controlamos os avanços do projeto com o uso do GitHub como repositório para o código e o MarvelApp para criação de prototipos de templates para a plataforma.
+ Para o gerenciamento do projeto utilizamos o Trello, MarvelApp e o GitHub, pelo Trello com objetivo em controlamos os avanços do projeto com o uso do GitHub como repositório para o código e o MarvelApp para criação de prototipos de templates para a plataforma.
 
 
 ## Gerenciamento de Projeto
