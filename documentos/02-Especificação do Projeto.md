@@ -174,12 +174,15 @@ Oportunidades de Negócios: Oportunidade de parcerias e colaborações com marca
 
 ### Requisitos não Funcionais
 
-[Utilize o modelo de tabela abaixo para apresentar os requisitos não-funcionais]
+| Requisito Não Funcional (RNF) | Descrição do Requisito                                     | Prioridade |
+|-----------------------------|------------------------------------------------------------|------------|
+| RNF-01                      | Garantir que o site seja completamente responsivo, adaptando-se a diferentes dispositivos, como smartphones, tablets e computadores desktop, para oferecer a melhor experiência do usuário em qualquer plataforma. | ALTA       |
+| RNF-02                      | O site deve carregar rapidamente, minimizando os tempos de carregamento das páginas para que os usuários possam acessar o conteúdo de forma eficiente. | ALTA       |
+| RNF-03                      | Proteger os dados do usuário com medidas de segurança robustas, como criptografia e autenticação segura, para garantir a privacidade e integridade das informações. | ALTA       |
+| RNF-04                      | Projetar a plataforma de forma que possa lidar com um aumento no número de usuários e no tráfego, garantindo que a performance permaneça estável. | MÉDIA      |
+| RNF-05                      | Criar uma interface de usuário intuitiva e amigável que seja fácil de navegar e usar, proporcionando uma experiência agradável para os usuários. | MÉDIA      |
+| RNF-06                      | Manter a plataforma disponível 24/7 com tempos mínimos de inatividade planejada para manutenção e atualizações. | BAIXA      |
 
-|ID      | Descrição               |Prioridade |
-|--------|-------------------------|----|
-| RNF-01 |  ...                    | ...   | 
-| ...    |  ...                    | ...   | 
 
 **Prioridade: Alta / Média / Baixa. 
 
