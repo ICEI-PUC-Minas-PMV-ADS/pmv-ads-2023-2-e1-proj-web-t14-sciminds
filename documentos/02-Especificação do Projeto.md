@@ -66,6 +66,28 @@ Acesso a Comunidades de Educadores: A oportunidade de se conectar com outros edu
 </tbody>
 </table>
 
+<table>
+<tbody>
+<tr align=center>
+<th colspan="2">Perfil Curiosos em Ciência </th>
+</tr>
+<tr>
+<td width="150px"><b>Descrição</b></td>
+<td width="600px">Entusiastas de conhecimento</td>
+</tr>
+<tr>
+<td><b>Necessidades</b></td>
+<td>Cursos Introdutórios Cativantes: Para atrair e manter a atenção desses usuários, os cursos introdutórios devem ser envolventes, práticos e acessíveis.
+
+Experimentação Prática: Eles podem se beneficiar de experiências práticas e experimentos que os aproximem dos princípios científicos.
+
+Exploração Autodirigida: A plataforma deve permitir que eles explorem tópicos de interesse pessoal de forma livre e autodirigida.
+</td>
+</tr>
+</tbody>
+</table>
+
+
 
 
 
