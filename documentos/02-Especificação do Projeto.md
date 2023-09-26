@@ -145,6 +145,7 @@ Oportunidades de Negócios: Oportunidade de parcerias e colaborações com marca
 | Estudante universitário | O usuário deseja acesso a vídeos e materiais de aprendizado em química orgânica. | Para obter suporte adicional em suas aulas na faculdade. |
 | Profissional de TI quer se atualizar em ciência de dados | O usuário procura cursos online sobre estatísticas e análise de dados. | Para melhorar suas habilidades e oportunidades de emprego.|
 | Professor do ensino médio precisa de recursos de biologia. | O usuário precisa de materiais de ensino de biologia para suas aulas. | Para enriquecer o currículo escolar e tornar as aulas mais envolventes. |
+| Curioso sobre astronomia quer aprender sobre o universo. | O usuário está interessado em aprender sobre astronomia por pura curiosidade. | Para satisfazer seu interesse pessoal em ciência.
 
 
 
