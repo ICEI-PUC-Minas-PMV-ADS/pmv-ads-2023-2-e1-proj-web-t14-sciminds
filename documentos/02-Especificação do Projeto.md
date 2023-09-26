@@ -28,15 +28,20 @@ Trilhas de Aprendizado Personalizadas: A plataforma deve oferecer a capacidade d
 <table>
 <tbody>
 <tr align=center>
-<th colspan="2">Perfil Nome </th>
+<th colspan="2">Perfil Profissional em Busca de Desenvolvimento </th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
-<td width="600px">...</td>
+<td width="600px">Profissionais atuantes no mercado de trabalho</td>
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
-<td>...</td>
+<td>Relevância Profissional: Profissionais buscam cursos diretamente relacionados às suas carreiras, portanto, o site deve oferecer cursos práticos e certificados reconhecidos no mercado.
+
+Acesso Flexível: Eles precisam de flexibilidade de horário para poder estudar enquanto trabalham, então a plataforma deve permitir o aprendizado sob demanda.
+
+Rede Profissional: Recursos para networking com outros profissionais da mesma área são valorizados.
+</td>
 </tr>
 </tbody>
 </table>
