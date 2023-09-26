@@ -140,10 +140,10 @@ Oportunidades de Negócios: Oportunidade de parcerias e colaborações com marca
 
 [Utilize o modelo de tabela abaixo para apresentar as histórias de usuários.]
 
-|EU COMO... `QUEM`   | QUERO/PRECISO ... `O QUE` |PARA ... `PORQUE`                 |
-|--------------------|---------------------------|----------------------------------|
-| ...                | ...                       | ...                              |
-| ...                | ...                       | ...                              |
+| EU COMO... `QUEM`           | QUERO/PRECISO ... `O QUE`                   | PARA ... `PORQUE`                          |
+|-------------------------|-----------------------------------|-----------------------------------------|
+| Estudante universitário | O usuário deseja acesso a vídeos e materiais de aprendizado em química orgânica. | Para obter suporte adicional em suas aulas na faculdade. |
+
 
 ## Requisitos do Projeto
 
