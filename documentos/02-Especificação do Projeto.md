@@ -156,7 +156,7 @@ Oportunidades de Negócios: Oportunidade de parcerias e colaborações com marca
 
 ### Requisitos Funcionais
 
-[Utilize o modelo de tabela abaixo para apresentar os requisitos funcionais]
+
 
 |         ID               | Descrição do Requisito                                     | Prioridade |
 |--------------------------|------------------------------------------------------------|------------|
