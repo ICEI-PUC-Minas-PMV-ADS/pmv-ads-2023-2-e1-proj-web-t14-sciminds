@@ -131,10 +131,6 @@ Oportunidades de Negócios: Oportunidade de parcerias e colaborações com marca
 
 
 
-
-
-
-
 ## Histórias de Usuários
 
 [Apresente aqui as histórias de usuários que são relevantes para o projeto da solução.]
