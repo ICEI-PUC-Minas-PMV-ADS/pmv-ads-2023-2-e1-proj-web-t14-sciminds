@@ -108,6 +108,27 @@ Versatilidade: Os videos online oferecem maior flexibilidade de horários, permi
 </tbody>
 </table>
 
+<table>
+<tbody>
+<tr align=center>
+<th colspan="2">Perfil Influenciadores </th>
+</tr>
+<tr>
+<td width="150px"><b>Descrição</b></td>
+<td width="600px">Divulgadores cientificos </td>
+</tr>
+<tr>
+<td><b>Necessidades</b></td>
+<td>Fazer a Diferença: Motivados a causar um impacto positivo na sociedade levantando questões importantes e conscientizando seus seguidores sobre determinados assuntos.
+
+Colaboração: Poder ajudar e contibuir com outros influenciadores e professores referência de atuação em projetos e pesquisas de mesma área de estudo.
+
+Oportunidades de Negócios: Oportunidade de parcerias e colaborações com marcas e instituiçoes de ensino.
+</td>
+</tr>
+</tbody>
+</table>
+
 
 
 
