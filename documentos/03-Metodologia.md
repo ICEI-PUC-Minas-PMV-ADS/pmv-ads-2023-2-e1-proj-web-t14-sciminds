@@ -1,7 +1,7 @@
 
 # Metodologia
 
-Com a utilização de duas ferramentas para o gerenciamento do projeto utilizamos o Trello e o GitHub, pelo Trello definimos os objetivos em categorias e controlamos os avanços do projeto e com o uso do GitHub usamos como repositorio para o código do progrma e permitindo revisões e alterações feitas pela equipe.
+Com a utilização de duas ferramentas para o gerenciamento do projeto utilizamos o Trello e o GitHub, pelo Trello definimos os objetivos em categorias e controlamos os avanços do projeto e com o uso do GitHub usamos como repositório para o código do progrma e permitindo revisões e alterações feitas pela equipe.
 
 
 ## Gerenciamento de Projeto
