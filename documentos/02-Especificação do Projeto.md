@@ -97,13 +97,13 @@ Exploração Autodirigida: A plataforma deve permitir que eles explorem tópicos
 <td width="600px">Organização dedicada à educação e à transmissão de conhecimento</td>
 </tr>
 <tr>
-<td><b>Reputação: Com boas divulgações ajudando a construir uma boa reputação e uma credibilidade com o público, fundamental para atrair alunos, parcerias e contratos de trabalho.
+<td><b>
+</b></td>
+<td>.Reputação: Com boas divulgações ajudando a construir uma boa reputação e uma credibilidade com o público, fundamental para atrair alunos, parcerias e contratos de trabalho.
 
 Alcance: Com o uso de meio on-line as instituiçoes podem alcançar um publico global, podendo chegar a muito mais pessoas ao redor do mundo não sendo limitadas por barreiras fisicas, como distância.
 
-Versatilidade: Os videos online oferecem maior flexibilidade de horários, permitindo que os alunos possam escolher o melhor momento e o local mais conveniente para estudar.
-</b></td>
-<td>...</td>
+Versatilidade: Os videos online oferecem maior flexibilidade de horários, permitindo que os alunos possam escolher o melhor momento e o local mais conveniente para estudar.</td>
 </tr>
 </tbody>
 </table>
