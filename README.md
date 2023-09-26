@@ -1,4 +1,4 @@
-# Título do Projeto
+# SCIMINDS
 
 `ANALISE E DESENVOLVIMENTO DE SISTEMAS`
 
