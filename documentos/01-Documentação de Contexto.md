@@ -4,7 +4,7 @@ Destacando a importância do desenvolvimento da mente e do pensamento crítico p
 
 ## Problema
 
-Ao embarcar na criação dessa plataforma, nos deparamos com desafios significativos. A acessibilidade à internet, a qualidade do conteúdo e o engajamento dos usuários são problemas cruciais a serem enfrentados. Garantir que todos os brasileiros tenham acesso igualitário à educação científica de qualidade é uma preocupação, assim como a necessidade de manter os usuários motivados e engajados em um ambiente online
+Ao embarcar na criação dessa plataforma, nos deparamos com desafios significativos. A acessibilidade à internet, a qualidade do conteúdo e o engajamento dos usuários são problemas cruciais a serem enfrentados. Garantir que todos os brasileiros tenham acesso igualitário à educação científica de qualidade é uma preocupação, assim como a necessidade de manter os usuários motivados e engajados em um ambiente online.
 
 ## Objetivos
 
