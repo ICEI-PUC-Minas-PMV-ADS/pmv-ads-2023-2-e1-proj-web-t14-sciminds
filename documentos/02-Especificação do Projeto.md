@@ -134,8 +134,6 @@ Oportunidades de Negócios: Oportunidade de parcerias e colaborações com marca
 ## Histórias de Usuários
 
 
-> **Link Útil**:
-> - [Como escrever boas histórias de usuário](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
 
 
 | EU COMO... `QUEM`           | QUERO/PRECISO ... `O QUE`                   | PARA ... `PORQUE`                          |
