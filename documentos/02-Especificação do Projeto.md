@@ -15,7 +15,12 @@
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
-<td>...</td>
+<td>Conteúdo Avançado: Os estudantes universitários necessitam de cursos e materiais de estudo avançados que estejam alinhados com os tópicos e requisitos de seus cursos acadêmicos.
+
+Avaliações e Exercícios Práticos: Para uma preparação eficaz, eles precisam de avaliações rigorosas e exercícios práticos que os desafiem e os ajudem a aplicar seus conhecimentos.
+
+Trilhas de Aprendizado Personalizadas: A plataforma deve oferecer a capacidade de criar trilhas de aprendizado personalizadas com base em seus objetivos acadêmicos.
+</td>
 </tr>
 </tbody>
 </table>
