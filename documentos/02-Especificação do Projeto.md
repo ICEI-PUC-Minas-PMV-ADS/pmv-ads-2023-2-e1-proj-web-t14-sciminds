@@ -45,6 +45,27 @@ Rede Profissional: Recursos para networking com outros profissionais da mesma á
 </tr>
 </tbody>
 </table>
+<table>
+<tbody>
+<tr align=center>
+<th colspan="2">Perfil Educadores </th>
+</tr>
+<tr>
+<td width="150px"><b>Descrição</b></td>
+<td width="600px">Profissionais de educação</td>
+</tr>
+<tr>
+<td><b>Necessidades</b></td>
+<td>Recursos Educacionais Diversificados: Educadores necessitam de uma variedade de recursos educacionais, incluindo planos de aula, atividades prontas e materiais de apoio.
+
+Ferramentas de Monitoramento de Alunos: A plataforma deve oferecer ferramentas que permitam aos educadores acompanhar o progresso dos alunos, rastrear seu desempenho e fornecer feedback.
+
+Acesso a Comunidades de Educadores: A oportunidade de se conectar com outros educadores e compartilhar experiências e melhores práticas é valiosa.
+</td>
+</tr>
+</tbody>
+</table>
+
 
 
 
