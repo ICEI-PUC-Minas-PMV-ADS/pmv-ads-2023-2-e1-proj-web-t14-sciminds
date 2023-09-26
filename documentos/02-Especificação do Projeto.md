@@ -158,10 +158,17 @@ Oportunidades de Negócios: Oportunidade de parcerias e colaborações com marca
 
 [Utilize o modelo de tabela abaixo para apresentar os requisitos funcionais]
 
-|ID    | Descrição                | Prioridade |
-|-------|---------------------------------|----|
-| RF-01 |  ...                    | ...   | 
-|  ...  |  ...                    | ...   |
+|         ID               | Descrição do Requisito                                     | Prioridade |
+|--------------------------|------------------------------------------------------------|------------|
+| RF-01                    | A plataforma deve permitir que os usuários se inscrevam na plataforma com facilidade, fornecendo informações pessoais e criando um perfil. Além disso, oferecer opções de login social para maior conveniência. | ALTA       |
+| RF-02                    | A plataforma deve exibir uma lista organizada de cursos disponíveis, incluindo títulos, descrições, instrutores e níveis de dificuldade. Os cursos devem ser categorizados e filtráveis para facilitar a pesquisa. | ALTA       |
+| RF-03                    | A plataforma deve disponibilizar materiais de ensino, como vídeos, artigos, quizzes e exercícios, para cada curso. Certificar-se de que o conteúdo seja acessível de forma intuitiva. | ALTA       |
+| RF-04                    | A plataforma deve implementar recursos que permitam aos usuários realizar avaliações e exercícios práticos relacionados aos cursos. A plataforma deve fornecer feedback imediato sobre o desempenho. | MÉDIA      |
+| RF-05                    | A plataforma deve permitir que os usuários criem trilhas de aprendizado personalizadas com base em seus objetivos acadêmicos ou profissionais. Isso inclui a capacidade de rastrear o progresso nas trilhas. | MÉDIA      |
+| RF-06                    | A plataforma deve implementar um fórum onde os usuários possam discutir tópicos relacionados à ciência, fazer perguntas e interagir com outros membros da comunidade. | BAIXA      |
+| RF-07                    | A plataforma deve desenvolver uma ferramenta de busca robusta que permita aos usuários encontrar cursos, materiais e informações específicos com facilidade. | MÉDIA      |
+| RF-08                    | A plataforma deve permitir que os usuários avaliem os cursos e forneçam comentários para ajudar outros membros a fazer escolhas informadas. | BAIXA      |
+
 
 **Prioridade: Alta / Média / Baixa. 
 
