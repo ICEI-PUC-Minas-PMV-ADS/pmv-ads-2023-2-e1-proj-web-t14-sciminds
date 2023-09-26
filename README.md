@@ -10,10 +10,10 @@ Destacando a importância do desenvolvimento da mente e do pensamento crítico p
 
 ## Integrantes
 
-* GLEISON OLIVEIRA QUEIROZ
-* VIVIANE DE JESUS RAMALHO
-* DEBORA RAYANE DE ANDRADE CABRAL
-* KAYQUE FAGUNDES
+* GLEISON OLIVEIRA QUEIROZ;
+* VIVIANE DE JESUS RAMALHO;
+* DEBORA RAYANE DE ANDRADE CABRAL;
+* KAYQUE FAGUNDES;
 * Nome completo do aluno 5
 * Nome completo do aluno 6
 
