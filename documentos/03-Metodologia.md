@@ -1,7 +1,7 @@
 
 # Metodologia
 
-Esta seção descreve a organização da equipe para a execução das tarefas do projeto e as ferramentas utilizadas para a manutenção dos códigos e demais artefatos.
+Com a utilização de duas ferramentas para o gerenciamento do projeto utilizamos  o Trello e o GitHub,  pelo Trello definimos os objetivos em categorias e controlamos os avanços do projeto e  com o GitHub como repositorio para o código do progrma E permitindo revisões e alterações  pela equipe.
 
 
 ## Gerenciamento de Projeto
