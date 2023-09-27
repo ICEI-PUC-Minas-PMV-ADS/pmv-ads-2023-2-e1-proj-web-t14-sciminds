@@ -56,7 +56,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 | Repositório de código fonte         | GitHub                             | http://....                            |
 | Documentos do projeto               | GitHub                             | http://....                            |
 | Projeto de Interface                | MarvelApp                          | http://....                            |
-| Gerenciamento do Projeto            | Trello                             | http://....                            |
+| Gerenciamento do Projeto            | Trello                             | https://trello.com/b/2pc07cJG/scimids  |
 | Hospedagem                          | GitHub Pages                       | http://....                            |
 
 
