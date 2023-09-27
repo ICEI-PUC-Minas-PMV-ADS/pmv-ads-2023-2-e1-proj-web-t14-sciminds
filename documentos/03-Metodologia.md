@@ -47,7 +47,8 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
   
 ### Ferramentas
 
-Com o uso do GitHub  para hospedar o código fonte do progrma permitindo que os desenvolvedores possam fazer revisões e alterações no código enquanto mantém um registro de mudanças e alterações atualizadas no  Trello, onde definimoso fluxo de trabalho em categorias e controlamos os avanços do projeto.
+Com o uso do GitHub  para hospedar o código fonte do progrma permitindo que os desenvolvedores possam fazer revisões e alterações no código enquanto mantém um registro de mudanças e alterações atualizadas no  Trello, onde definimoso fluxo de trabalho em categorias e controlamos os avanços do projeto e o MarvelApp para criação de prototipos de templates para a plataforma.
+
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
