@@ -3,7 +3,7 @@
 
 ## User Flow
 
-Com foco na criaçao de interface, optamos por uma boa usuabilidade com elementos de interface intuitivos e faceis de entender, um sistema de navegação intuitiva, onde os usuários poderiam facilmente achar as aulas, seminários e matérias que procuram por meio de menus e do sistema de busca além de responsividade, onde a plataforma deverá se adaptar à computadores, smartphones e tablets.
+Com foco na criaçao de interface, optamos por uma boa usuabilidade com elementos de interface intuitivos e faceis de entender, um sistema de navegação onde os usuários poderiam facilmente achar as aulas, seminários e matérias que procuram por meio de menus e do sistema de busca além de responsividade, onde a plataforma deverá se adaptar à computadores, smartphones e tablets.
 
 [Adicione aqui o diagrama de fluxo de usuário da sua aplicação.] 
 
