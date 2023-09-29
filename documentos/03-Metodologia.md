@@ -55,7 +55,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
 | Repositório de código fonte         | GitHub                             | http://....                            |
-| Documentos do projeto               | GitHub                             | http://....                            |
+| Documentos do projeto               | Google Drive                       |https://drive.google.com/file/d/1eLm_E68X2ntGHno37U-wX01rQetkfdPX/view?usp=drive_link   |
 | Projeto de Interface                | MarvelApp                          | http://....                            |
 | Gerenciamento do Projeto            | Trello                             | https://trello.com/b/2pc07cJG/scimids  |
 | Hospedagem                          | GitHub Pages                       | http://....                            |
