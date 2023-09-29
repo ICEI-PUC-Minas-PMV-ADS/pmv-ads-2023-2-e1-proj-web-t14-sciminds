@@ -56,7 +56,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 |-------------------------------------|------------------------------------|----------------------------------------|
 | Repositório de código fonte         | GitHub                             | http://....                            |
 | Documentos do projeto               | Google Drive                       |https://drive.google.com/file/d/1eLm_E68X2ntGHno37U-wX01rQetkfdPX/view?usp=drive_link   |
-| Projeto de Interface                | MarvelApp                          | http://....                            |
+| Projeto de Interface                | LucidChart                         | [http://....     ](https://lucid.app/lucidchart/1e1eaf64-b7c6-48e7-96f6-1fdc7614000c/edit?viewport_loc=-476%2C4%2C2263%2C957%2C0_0&invitationId=inv_2dd2e10e-bbdc-466b-88ce-c3106732eacd)                       |
 | Gerenciamento do Projeto            | Trello                             | https://trello.com/b/2pc07cJG/scimids  |
 | Hospedagem                          | GitHub Pages                       | http://....                            |
 
