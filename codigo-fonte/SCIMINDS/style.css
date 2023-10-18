@@ -1,0 +1,376 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'roboto', sans-serif;
+    background-color: #070818;
+    color: #fff;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+H1 {
+    font-size: 3rem;
+    margin-bottom: 100px;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+header {
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px 0;
+    position: relative;
+    border: 2px solid rgb(23, 21, 37);
+}
+
+.header-logo {
+    animation: rotate 10s infinite linear;
+    /* Aplicar a animaÃ§Ã£o de rotaÃ§Ã£o */
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 10px;
+}
+
+nav li {
+    display: inline;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.menuinicial {
+    background-color: #2d91d4;
+    /* Cor de fundo */
+    color: #fff;
+    /* Cor do texto */
+    padding: 10px;
+    /* Espaçamento interno */
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.procurar {
+    margin-top: 20px;
+    width: 20%;
+    float: right;
+    background: #fff;
+    border-radius: 35px;
+    height: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-bar {
+    background: none;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+}
+
+.search-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo {
+    margin-top: 0;
+    width: 70%;
+    float: left;
+    padding: 20px;
+}
+
+
+.video {
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ddd;
+}
+
+.logins {
+    position: absolute;
+    margin-top: 10px;
+    position: relative;
+    float: right;
+    width: 20%;
+    padding: 20px;
+}
+
+@media (max-width:800px) {
+    .conteudo {
+        float: none;
+        width: 95%;
+    }
+
+    .logins {
+        position: relative;
+        top: 200px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        float: none;
+        width: 50%;
+        float: left;
+        padding: 20px;
+    }
+
+    .procurar {
+        position: relative;
+        top: 0px;
+        clear: both;
+        width: 95%;
+        float: none;
+        width: 50%;
+        margin: 10px auto;
+    }
+
+    .video {
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 30px;
+        height: 0;
+        overflow: hidden;
+    }
+
+    .video iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+}
+
+main aside {
+    width: 100%;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#login {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+#login h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#login p {
+    text-align: center;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+    /* adicione um espaço a  direita para separar os botões */
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+button.cadastrar {
+    background-color: #28a745;
+    color: #fff;
+    margin: 10px 0;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.cadastrar:hover {
+    background-color: #218838;
+}
+
+.form-group {
+
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+#inscricao {
+
+    width: 30%;
+    position: relative;
+    top: 350px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000000;
+    /* Ajuste a margem superior e inferior */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+#inscricao h2 {
+    color: #fffbfb;
+    margin-bottom: 5px;
+
+    /* Ajuste a margem inferior */
+}
+
+#inscricao p {
+    color: #ffffff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#inscricao form {
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#inscricao label {
+    color: #ffffff;
+    margin-bottom: 2px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+#inscricao input,
+#inscricao select,
+#inscricao textarea {
+
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#inscricao input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#inscricao input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Define inscriÃ§Ã£o styles */
+
+#inscricao {
+    font-family: Arial, sans-serif;
+
+    /* Set font family */
+}
+
+/* Estilo para o rodapÃ© */
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#contato {
+    text-align: center;
+}
+
+.rodape {
+    position: relative;
+    bottom: 0;
+    width: 70%;
+    float: left;
+    padding: 20px;
+}
+
+/* Estilo para links no rodapÃ© */
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilo para links no hover */
+a:hover {
+    text-decoration: none;
+}
+
+#inscricao button {
+    background-color: #3B5998;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#inscricao button.instagram {
+    background: #E4405F;
+}
+
+#inscricao button.twitter {
+    background: #ffffff;
+}
