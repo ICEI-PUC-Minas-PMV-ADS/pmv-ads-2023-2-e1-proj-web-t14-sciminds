@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SCIMINDS</title>
+</head>
+
+<body>
+    <header>
+
+        <h1><a href="index.html"></a></h1>
+        <div class="login-container">
+            <a href="login.html">
+            <button>Login</button></a>
+          </div>
+
+    </header>
+
+    <nav class="menuinicial">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#eventos">Eventos</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <li><a href="inscricrever.html">Inscrever-se</a></li>
+            <div class="procurar">
+
+                <input class="search-bar" type="text" name="searchbar" placeholder="Buscar...">
+                <a class="search-btn">
+        
+                    <img class="lupaazul" src="./loupe-blue.svg" alt="" width="25px" height="25px">
+        
+                </a>
+        </ul>
+
+    </nav>
+    <Main>
+        <section id="inscricao">
+            <h2>INSCREVA-SE</h2>
+            <form action="">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <br>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="evento">Evento de interesse:</label>
+                <select id="evento" name="evento">
+                    <option value="curso1">Evento sobre criação de contratos</option>
+                    <option value="curso2">Métodos de Pesquisa Científica</option>
+                    <option value="curso3">Tópicos Avançados em Ciência</option>
+                </select>
+                <br>
+                <input type="submit" value="Inscrever-se">
+
+                <div class="social-buttons">
+                    <p>Ou entre com:</p>
+                    <button class="facebook">Facebook</button>
+                    <button class="instagram">Instagram</button>
+                    <button class="twitter">Google</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="rodape2parte">
+            
+            <footer>
+                <p>&copy; 2023 SciMinds - Todos os direitos reservados.</p>
+            </footer>
+        </section>
+
+    </Main>
+
+</body>
+
+</html>
