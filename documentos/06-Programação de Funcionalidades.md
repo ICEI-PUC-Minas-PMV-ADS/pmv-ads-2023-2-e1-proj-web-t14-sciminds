@@ -10,7 +10,8 @@ Implementação da aplicação descritas por meio dos requisitos codificados.
 
 #### Requisito atendido
 
-RF-3: A plataforma deve disponibilizar materiais de ensino, como vídeos, artigos, quizzes e exercícios, para cada curso. Certificar-se de que o conteúdo seja acessível de forma intuitiva.
+RF-03: A plataforma deve disponibilizar materiais de ensino, como vídeos, artigos, quizzes e exercícios, para cada curso. Certificar-se de que o conteúdo seja acessível de forma intuitiva.
+RF-02: A plataforma deve exibir uma lista organizada de cursos disponíveis, incluindo títulos, descrições, instrutores e níveis de dificuldade. Os cursos devem ser categorizados e filtráveis para facilitar a pesquisa.
 
 
 #### Artefatos da funcionalidade
@@ -71,17 +72,17 @@ Foram utilizados na construção dessa páginas arquivos de HTML, CSS e JavaScri
 
 #### Estrutura de Dados
 
-[Caso exista estrutura de dados, adicione aqui]
+Ainda não funcional.
 
 
 #### Instruções de acesso
 
-[Adicione as orientações de acesso à funcionalidade]
+Apartir da página inicial no menu abaixo do cabeçalho na opção inscrever-se ou na pagina de login abaixo do botão "Login" na opção do botão "Cadastre-se", terá aceesso a página de Cadastro.
 
 
 #### Responsável
 
-[Adicione nome do responsável pelo desenvolvimento da funcionalidade]
+O responsável pelo desenvolvimento da funcionalidade: KAYQUE FAGUNDES.
 
 ##
 ### Tela Aulas ao vivo
@@ -91,27 +92,24 @@ Foram utilizados na construção dessa páginas arquivos de HTML, CSS e JavaScri
 
 #### Requisito atendido
 
-[RF-X: adicione a descrição do requisito atendido]
+RF-03:	A plataforma deve disponibilizar materiais de ensino, como vídeos, artigos, quizzes e exercícios, para cada curso. Certificar-se de que o conteúdo seja acessível de forma intuitiva.
+
 
 
 #### Artefatos da funcionalidade
 
-[Adicione os nomes dos arquivos relacionados ao desenvolvimento da funcionalidade]
+Foram utilizados na construção dessa páginas arquivos de HTML e CSS: index.html e style.css. 
 
-
-#### Estrutura de Dados
-
-[Caso exista estrutura de dados, adicione aqui]
 
 
 #### Instruções de acesso
 
-[Adicione as orientações de acesso à funcionalidade]
+Na página inicial, no menu navegação abaixo do cabeçalho, clicando no link eventos, você será levado ao conteúdo da página na área de "Eventos Cientificos Online", clicando nos eventos disponiveis você será levado a aula em questão.
 
 
 #### Responsável
 
-[Adicione nome do responsável pelo desenvolvimento da funcionalidade]
+Os responsáveis pelo desenvolvimento da funcionalidade: KAYQUE FAGUNDES e GLEISON OLIVEIRA.
 
 
 
