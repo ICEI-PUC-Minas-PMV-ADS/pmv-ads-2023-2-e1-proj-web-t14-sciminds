@@ -1,7 +1,7 @@
 # Template padrão da Aplicação
 
 
-![template](documentos/img/componentes.png)
+![template]()
 
 ![logo](/img/LogoCriada.png)
 <center>Pagina Inicial</center>
