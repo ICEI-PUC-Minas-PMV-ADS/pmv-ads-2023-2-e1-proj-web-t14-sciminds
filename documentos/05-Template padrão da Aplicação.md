@@ -1,8 +1,7 @@
 # Template padrão da Aplicação
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
-
-[Apresente a estrutura padrão da sua aplicação.]
+Template padrão do site:
+![templatepadrao](Documentos/img/TemplatePadrao.png)
 
 > **Links Úteis**:
 >
