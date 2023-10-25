@@ -15,22 +15,12 @@ RF-3: A plataforma deve disponibilizar materiais de ensino, como vídeos, artigo
 
 #### Artefatos da funcionalidade
 
-[Adicione os nomes dos arquivos relacionados ao desenvolvimento da funcionalidade]
-
-
-#### Estrutura de Dados
-
-[Caso exista estrutura de dados, adicione aqui]
-
-
-#### Instruções de acesso
-
-[Adicione as orientações de acesso à funcionalidade]
+Foram utilizados na construção dessa páginas arquivos de HTML e CSS: index.html e style.css. 
 
 
 #### Responsável
 
-[Adicione nome do responsável pelo desenvolvimento da funcionalidade]
+O responsável pelo desenvolvimento da funcionalidade: KAYQUE FAGUNDES.
 
 
 ### Tela Login
