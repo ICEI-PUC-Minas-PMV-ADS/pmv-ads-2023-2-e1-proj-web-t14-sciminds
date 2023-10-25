@@ -1,9 +1,9 @@
 # Template padrão da Aplicação
 
 Template padrão do site:
-![template](./img/TemplatePadrao.png)
+![template](/img/TemplatePadrao.png)
 
-![logo](./img/LogoCriada.png)
+![logo](/img/LogoCriada.png)
 <center>Pagina Inicial</center>
 
 > **Links Úteis**:
