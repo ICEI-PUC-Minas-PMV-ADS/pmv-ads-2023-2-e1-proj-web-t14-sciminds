@@ -40,7 +40,10 @@ Foram utilizados na construção dessa páginas arquivos de HTML, CSS e JavaScri
 
 #### Estrutura de Dados
 
-Criacao de um usuário teste para testar tela de login. Usuário: admin e Senha: 1234.
+Criacao de três usuários testes para testar a tela de login.<br>
+Usuário: admin e Senha: 12345678.<br>
+Usuário: maria e Senha: 12345678.<br>
+Usuário: luis e Senha: 12345678.<br>
 
 #### Instruções de acesso
 
