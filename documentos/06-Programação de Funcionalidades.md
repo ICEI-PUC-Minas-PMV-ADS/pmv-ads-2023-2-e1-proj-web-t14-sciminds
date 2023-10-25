@@ -10,7 +10,7 @@ Implementação da aplicação descritas por meio dos requisitos codificados.
 
 #### Requisito atendido
 
-RF-03: A plataforma deve disponibilizar materiais de ensino, como vídeos, artigos, quizzes e exercícios, para cada curso. Certificar-se de que o conteúdo seja acessível de forma intuitiva.
+RF-03: A plataforma deve disponibilizar materiais de ensino, como vídeos, artigos, quizzes e exercícios, para cada curso. Certificar-se de que o conteúdo seja acessível de forma intuitiva.<br>
 RF-02: A plataforma deve exibir uma lista organizada de cursos disponíveis, incluindo títulos, descrições, instrutores e níveis de dificuldade. Os cursos devem ser categorizados e filtráveis para facilitar a pesquisa.
 
 
@@ -59,8 +59,7 @@ Os responsáveis pelo desenvolvimento da funcionalidade: KAYQUE FAGUNDES e GLEIS
 
 #### Requisito atendido
 
-RF-01: A plataforma deve permitir que os usuários se inscrevam na plataforma com facilidade, fornecendo informações pessoais e criando um perfil.
-
+RF-01: A plataforma deve permitir que os usuários se inscrevam na plataforma com facilidade, fornecendo informações pessoais e criando um perfil.<br>
 RF-05: A plataforma deve permitir que os usuários criem trilhas de aprendizado personalizadas com base em seus objetivos acadêmicos ou profissionais. Isso inclui a capacidade de rastrear o progresso nas trilhas.
 
 
