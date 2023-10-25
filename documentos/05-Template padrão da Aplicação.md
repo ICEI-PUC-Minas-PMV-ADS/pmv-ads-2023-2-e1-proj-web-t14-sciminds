@@ -2,6 +2,8 @@
 
 Template padrão do site:
 ![template](documentos/img/TemplatePadrao.png)
+
+![logo](documentos/img/LogoCriada.png)
 <center>Pagina Inicial</center>
 
 > **Links Úteis**:
