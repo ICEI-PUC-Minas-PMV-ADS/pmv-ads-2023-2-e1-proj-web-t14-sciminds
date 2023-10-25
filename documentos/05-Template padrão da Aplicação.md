@@ -1,7 +1,7 @@
 # Template padrão da Aplicação
 
 Template padrão do site:
-![templatepadrao](documentos/img/TemplatePadrao.png)
+![template](documentos/img/TemplatePadrao.png)
 <center>Pagina Inicial</center>
 
 > **Links Úteis**:
