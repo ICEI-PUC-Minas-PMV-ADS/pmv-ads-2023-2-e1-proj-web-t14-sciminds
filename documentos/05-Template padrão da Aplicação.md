@@ -16,7 +16,7 @@
 ##
 - Fontes<br>
 
- Utilizadas no conteúdo da página: Roboto e Sans-Serifa.<br>
+ Utilizadas no conteúdo da página: Roboto e Sans-Serif.<br>
 
  Utilizada na Logo: .
 
