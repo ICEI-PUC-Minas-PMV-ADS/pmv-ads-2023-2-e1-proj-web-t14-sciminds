@@ -4,9 +4,9 @@ Implementação da aplicação descritas por meio dos requisitos codificados.
 
 [Utilize a estrutura abaixo para cada funcionalidade entregue na etapa]
 
-### Título da funcionalidade
+### Tela Inicial
 
-[Adicione imagem da funcionalidade/tela]
+![Tela Inicial](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/blob/main/documentos/img/paginaHome.jpg)
 
 
 #### Requisito atendido
