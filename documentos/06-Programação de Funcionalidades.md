@@ -25,7 +25,7 @@ O responsável pelo desenvolvimento da funcionalidade: KAYQUE FAGUNDES.
 ##
 ### Tela Login
 
-![Tela Inicial](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/blob/main/documentos/img/telaLogin.png)
+![Tela Login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/blob/main/documentos/img/telaLogin.png)
 
 
 #### Requisito atendido
@@ -53,7 +53,7 @@ Os responsáveis pelo desenvolvimento da funcionalidade: KAYQUE FAGUNDES e GLEIS
 ##
 ### Tela Cadastro
 
-![Tela Inicial](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/blob/main/documentos/img/telacadastro.png)
+![Tela Cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/blob/main/documentos/img/telacadastro.png)
 
 
 #### Requisito atendido
@@ -86,7 +86,7 @@ Foram utilizados na construção dessa páginas arquivos de HTML, CSS e JavaScri
 ##
 ### Tela Aulas ao vivo
 
-![Tela Inicial](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/blob/main/documentos/img/telaAulas.png)
+![Tela Aulas ao vivo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/blob/main/documentos/img/telaAulas.png)
 
 
 #### Requisito atendido
