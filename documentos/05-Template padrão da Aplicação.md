@@ -16,8 +16,9 @@
 ##
 - Fontes:<br>
 
-Útilizadas no conteúdo da página: Roboto e Sans-Serifa.<br>
-Útilizada na Logo: .
+Utilizadas no conteúdo da página: Roboto e Sans-Serifa.<br>
+
+Utilizada na Logo: .
 
 ##
 
