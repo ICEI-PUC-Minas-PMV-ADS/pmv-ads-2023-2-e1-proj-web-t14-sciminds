@@ -10,7 +10,7 @@ Implementação da aplicação descritas por meio dos requisitos codificados.
 
 #### Requisito atendido
 
-[RF-X: adicione a descrição do requisito atendido]
+[RF-3: A plataforma deve disponibilizar materiais de ensino, como vídeos, artigos, quizzes e exercícios, para cada curso. Certificar-se de que o conteúdo seja acessível de forma intuitiva.]
 
 
 #### Artefatos da funcionalidade
