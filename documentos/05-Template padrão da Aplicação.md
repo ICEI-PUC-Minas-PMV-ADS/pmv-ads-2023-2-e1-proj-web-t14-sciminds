@@ -5,16 +5,16 @@
   
 ![TemplatePadrão](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/blob/main/documentos/img/Template%20Padrao.png)
 ## 
-Logo Criada para o Site.
+- Logo Criada para o Site.
 
 ![logoCriada](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/blob/main/documentos/img/LogoCriada.png)
 ## 
-Paletas de Cores Usadas.
+- Paletas de Cores Usadas.
 
 ![PaletaDeCores](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/blob/main/documentos/img/paletadecores.png)
 
 ##
-# Fontes:
+- Fontes:
 Útilizadas no conteúdo da página: Roboto e Sans-Serifa.
 Útilizada na Logo: .
 
