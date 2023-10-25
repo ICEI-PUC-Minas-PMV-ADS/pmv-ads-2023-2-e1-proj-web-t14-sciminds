@@ -35,22 +35,17 @@ RF-01: A plataforma deve permitir que os usuários se inscrevam na plataforma co
 
 #### Artefatos da funcionalidade
 
-[Adicione os nomes dos arquivos relacionados ao desenvolvimento da funcionalidade]
-
-
-#### Estrutura de Dados
-
-[Caso exista estrutura de dados, adicione aqui]
+Foram utilizados na construção dessa páginas arquivos de HTML, CSS e JavaScript: index.html, style.css e increvasse.js. 
 
 
 #### Instruções de acesso
 
-[Adicione as orientações de acesso à funcionalidade]
+No canto Superiror direito da tela inicial, dentro do cabeçalho, temos o botão Login, onde se o usuário ja tiver cadastro poderá logar em sua conta.
 
 
 #### Responsável
 
-[Adicione nome do responsável pelo desenvolvimento da funcionalidade]
+Os responsáveis pelo desenvolvimento da funcionalidade: KAYQUE FAGUNDES e GLEISON OLIVEIRA.
 
 ### Tela Cadastro
 
