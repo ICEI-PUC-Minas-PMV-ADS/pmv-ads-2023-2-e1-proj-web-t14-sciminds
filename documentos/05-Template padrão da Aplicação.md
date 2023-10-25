@@ -1,7 +1,7 @@
 # Template padrão da Aplicação
 
 Template padrão do site:
-git add .(/img/TemplatePadrao.png)
+![template](/img/TemplatePadrao.png)
 
 ![logo](/img/LogoCriada.png)
 <center>Pagina Inicial</center>
