@@ -47,6 +47,7 @@ No canto Superiror direito da tela inicial, dentro do cabeçalho, temos o botão
 
 Os responsáveis pelo desenvolvimento da funcionalidade: KAYQUE FAGUNDES e GLEISON OLIVEIRA.
 
+##
 ### Tela Cadastro
 
 ![Tela Inicial](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/blob/main/documentos/img/telacadastro.png)
@@ -54,12 +55,14 @@ Os responsáveis pelo desenvolvimento da funcionalidade: KAYQUE FAGUNDES e GLEIS
 
 #### Requisito atendido
 
-[RF-X: adicione a descrição do requisito atendido]
+RF-01: A plataforma deve permitir que os usuários se inscrevam na plataforma com facilidade, fornecendo informações pessoais e criando um perfil.
+RF-05	A plataforma deve permitir que os usuários criem trilhas de aprendizado personalizadas com base em seus objetivos acadêmicos ou profissionais. Isso inclui a capacidade de rastrear o progresso nas trilhas.
+
 
 
 #### Artefatos da funcionalidade
 
-[Adicione os nomes dos arquivos relacionados ao desenvolvimento da funcionalidade]
+Foram utilizados na construção dessa páginas arquivos de HTML, CSS e JavaScript: index.html, style.css e increvasse.js.
 
 
 #### Estrutura de Dados
@@ -76,6 +79,7 @@ Os responsáveis pelo desenvolvimento da funcionalidade: KAYQUE FAGUNDES e GLEIS
 
 [Adicione nome do responsável pelo desenvolvimento da funcionalidade]
 
+##
 ### Tela Aulas ao vivo
 
 ![Tela Inicial](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/blob/main/documentos/img/telaAulas.png)
