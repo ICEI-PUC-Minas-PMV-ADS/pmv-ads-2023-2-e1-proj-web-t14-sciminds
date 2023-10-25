@@ -4,7 +4,11 @@
   
 ![TemplatePadrão](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/blob/main/documentos/img/Template%20Padrao.png)
 
+Logo Criada para o Site.
+
 ![logoCriada](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/blob/main/documentos/img/LogoCriada.png)
+
+Paletas de Cores Usadas no Site.
 
 ![PaletaDeCores](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/blob/main/documentos/img/paletadecores.png)
 <center>Pagina Inicial</center>
