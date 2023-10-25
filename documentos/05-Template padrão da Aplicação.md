@@ -3,7 +3,7 @@
 
 ![TemplatePadrão](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/blob/main/documentos/img/Template%20Padrao.png)
 
-![logoCriada]([/img/LogoCriada.png](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/blob/main/documentos/img/LogoCriada.png)
+![logoCriada](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/blob/main/documentos/img/LogoCriada.png)
 <center>Pagina Inicial</center>
 
 > **Links Úteis**:
