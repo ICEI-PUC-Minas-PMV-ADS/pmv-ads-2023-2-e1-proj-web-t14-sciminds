@@ -83,6 +83,33 @@ Apartir da página inicial no menu abaixo do cabeçalho na opção inscrever-se 
 
 O responsável pelo desenvolvimento da funcionalidade: KAYQUE FAGUNDES.
 
+### Tela Usuário
+
+![Tela Usuario](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/blob/main/documentos/img/telaUsuario.png)
+
+
+#### Requisito atendido
+
+RF-05: A plataforma deve permitir que os usuários criem trilhas de aprendizado personalizadas com base em seus objetivos acadêmicos ou profissionais. Isso inclui a capacidade de rastrear o progresso nas trilhas.<br>
+
+#### Artefatos da funcionalidade
+
+Foram utilizados na construção dessa páginas arquivos de HTML, CSS e JavaScript: index.html, style.css e increvasse.js. 
+
+#### Estrutura de Dados
+
+Usuario teste: admin
+
+#### Instruções de acesso
+
+No canto Superiror direito da tela inicial, dentro do cabeçalho, temos o botão Login, onde se o usuário ja tiver cadastro poderá logar em sua conta.
+
+
+#### Responsável
+
+Os responsável pelo desenvolvimento da funcionalidade: KAYQUE FAGUNDES.
+
+
 ##
 ### Tela Aulas ao vivo
 
