@@ -14,11 +14,11 @@
 ![PaletaDeCores](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/blob/main/documentos/img/paletadecores.png)
 
 ##
-- Fontes:<br>
+- Fontes<br>
 
-Utilizadas no conteúdo da página: Roboto e Sans-Serifa.<br>
+ Utilizadas no conteúdo da página: Roboto e Sans-Serifa.<br>
 
-Utilizada na Logo: .
+ Utilizada na Logo: .
 
 ##
 
