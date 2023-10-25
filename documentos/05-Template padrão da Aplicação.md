@@ -18,7 +18,7 @@
 
  Utilizadas no conteúdo da página: Roboto e Sans-Serif.<br>
 
- Utilizada na Logo: .
+ 
 
 ##
 
