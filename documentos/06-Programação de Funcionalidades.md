@@ -57,7 +57,7 @@ Os responsáveis pelo desenvolvimento da funcionalidade: KAYQUE FAGUNDES e GLEIS
 
 RF-01: A plataforma deve permitir que os usuários se inscrevam na plataforma com facilidade, fornecendo informações pessoais e criando um perfil.
 
-RF-05	A plataforma deve permitir que os usuários criem trilhas de aprendizado personalizadas com base em seus objetivos acadêmicos ou profissionais. Isso inclui a capacidade de rastrear o progresso nas trilhas.
+RF-05: A plataforma deve permitir que os usuários criem trilhas de aprendizado personalizadas com base em seus objetivos acadêmicos ou profissionais. Isso inclui a capacidade de rastrear o progresso nas trilhas.
 
 
 
