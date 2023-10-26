@@ -3,8 +3,10 @@
 ## 
 -  Template padrão do Site.
   
-![TemplatePadrão](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/blob/main/documentos/img/Template%20Padrao.png)
+![TemplatePadrão](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/blob/main/documentos/img/Template%20Padrao.png)<br>
+
 ![TemplatePadrão]([https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/blob/main/documentos/img/Template%20Padrao.png](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/blob/main/documentos/img/tela%20inicial2.JPG))
+
 ## 
 - Logo Criada para o Site.
 
