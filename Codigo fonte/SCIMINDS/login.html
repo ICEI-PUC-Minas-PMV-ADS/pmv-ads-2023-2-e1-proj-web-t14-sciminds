@@ -113,18 +113,22 @@
         var login = document.getElementById('usuario').value;
         var senha = document.getElementById('senha').value;
 
-        if (login == "admin" && senha == "12345678") {
+       if (login == "admin" && senha == "12345678") {
         alert('Bem vindos ao SCIMINDS');
         location.href = "telalogado.html";
         }
-        if (login == "maria" && senha == "12345678") {
+        else if (login == "maria" && senha == "12345678") {
         alert('Bem vindos ao SCIMINDS');
         location.href = "telalogado2.html";
         }
-        if (login == "luis" && senha == "12345678") {
+        else if (login == "luis" && senha == "12345678") {
         alert('Bem vindos ao SCIMINDS');
         location.href = "telalogado3.html";
         }
+        else{
+            alert('Usuarios ou Senha incorretos. \n Tente Novamente!')
+        }
+    }
         
     }
 
