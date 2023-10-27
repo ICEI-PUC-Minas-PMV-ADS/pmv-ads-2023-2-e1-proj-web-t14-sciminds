@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <script src="./increvasse.    js"></script>
+    <title>SCIMINDS</title>
+</head>
+
+<body>
+    <header>
+
+        <h1><a href="index.html"></a></h1>
+        <div class="login-container">
+            <a href="login.html">
+                <button>Login</button></a>
+        </div>
+
+    </header>
+
+    <nav class="menuinicial">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#eventos">Eventos</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <li><a href="inscricrever.html">Inscrever-se</a></li>
+            <div class="procurar">
+
+                <input class="search-bar" type="text" name="searchbar" placeholder="Buscar...">
+                <a class="search-btn">
+
+                    <img class="lupaazul" src="./loupe-blue.svg" alt="" width="25px" height="25px">
+
+                </a>
+        </ul>
+
+    </nav>
+    
+    <section>
+       <div class='container'>
+        <div class='card'>
+           <h1> Login </h1>
+       
+           <div id='msgError'></div>
+           <div id='msgSuccess'></div>
+       
+               
+               <div class="label-float">
+                  <input type="text" id="usuario" placeholder=" " required>
+                  <label id="labelUsuario" for="usuario">Usuário</label>
+               </div>
+               
+               <div class="label-float">
+                  <input type="password" id="senha" placeholder=" " required>
+                  <label id="labelSenha" for="senha">Senha</label>
+                  <i id="verSenha" class="fa fa-eye" aria-hidden="true"></i>
+                  
+               </div>
+               
+               <div class='justify-center'>
+                  <button onclick='login()'>Login</button>
+               </div>
+            
+           
+            <p class="cadastre-se">Não tem uma conta?</p>
+            <a href="inscricrever.html" target="blank">
+                <button class="cadastrar">Cadastre-se</button>
+            </a>
+
+    </section>
+
+    <script>
+        
+        let btn = document.querySelector('#verSenha')
+        let btnConfirm = document.querySelector('#verConfirmSenha')
+
+        let senha = document.querySelector('#senha')
+        let labelSenha = document.querySelector('#labelSenha')
+        let validSenha = false
+
+       senha.addEventListener('keyup', () => {
+       if(senha.value.length <= 5){
+       labelSenha.setAttribute('style', 'color: red')
+       labelSenha.innerHTML = 'Senha'
+       senha.setAttribute('style', 'border-color: red')
+       validSenha = false
+       }    
+       else {
+       labelSenha.setAttribute('style', 'color: green')
+       labelSenha.innerHTML = 'Senha'
+       senha.setAttribute('style', 'border-color: green')
+       validSenha = true
+       }
+       })
+        
+        
+        btn.addEventListener('click', ()=>{
+        let inputSenha = document.querySelector('#senha')
+  
+        if(inputSenha.getAttribute('type') == 'password'){
+        inputSenha.setAttribute('type', 'text')
+        } 
+        else {
+        inputSenha.setAttribute('type', 'password')
+        }
+        })
+        
+        function login() {
+ 
+        var login = document.getElementById('usuario').value;
+        var senha = document.getElementById('senha').value;
+
+        if (login == "admin" && senha == "12345678") {
+        alert('Bem vindos ao SCIMINDS');
+        location.href = "telalogado.html";
+        }
+        if (login == "maria" && senha == "12345678") {
+        alert('Bem vindos ao SCIMINDS');
+        location.href = "telalogado2.html";
+        }
+        if (login == "luis" && senha == "12345678") {
+        alert('Bem vindos ao SCIMINDS');
+        location.href = "telalogado3.html";
+        }
+        
+    }
+
+
+    </script>
+ 
+
+    <footer>
+        <p>&copy; 2023 SciMinds - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
