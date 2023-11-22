@@ -24,7 +24,7 @@ Este documento descreve os testes funcionais a serem realizados na aplicação S
 
 | Item | Descrição |
 |:----|:-----------|
-| Requisitos Associados | RF-01: Permitir inscrição e criação de perfil do usuário. |
+| Requisitos Associados | RF-01: Permitir login de perfil do usuário. |
 | Objetivo do Teste | Verificar a funcionalidade de login. |
 | Passos | 1. Acessar página inicial.<br>2. Clicar em 'Login'.<br>3. Informar dados de cadastro e realizar login. |
 | Critérios de Êxito | Login realizado com sucesso, acessando a página de usuário. |
