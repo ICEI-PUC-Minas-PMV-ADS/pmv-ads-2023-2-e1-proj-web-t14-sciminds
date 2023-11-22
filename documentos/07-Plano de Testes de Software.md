@@ -10,7 +10,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
 | Objetivo do Teste | Verificar se os links da página inicial estão direcionando para as páginas correspondentes|
 | Passos | 1° Acessar o navegador.<br> 2° Informar o endereço do site.<br> 3° Visualizar a página inicial.<br> 4° Clicar nos links da página inicial. |
 | Critérios de êxito |  Os links da página inicial  encaminham os usuários para as páginas descritas ou para ancoras de conteúdo na mesma página. |
-| Responsável pela elaborar do caso de Teste | Nome do integrante da equipe |
+| Responsável pela elaborar do caso de Teste | nome: |
 
 #
 |Caso de Teste    | CT-02 - Criar cadastro de usuário |
@@ -18,8 +18,8 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
 | Requisitos Associados | RF-01	A plataforma deve permitir que os usuários se inscrevam na plataforma com facilidade, fornecendo informações pessoais e criando um perfil. |
 | Objetivo do Teste | Verificar se o cadastro esta sendo salvo e executavel. |
 | Passos | 1° Acessar página inicial.<br> 2° Clicar em inscreva-se.<br> 3° Realizar o cadastro informando os dados e concluindo em Cadastrar.<br> |
-| Critérios de êxito | Indicar os critérios de êxito  |
-| Responsável pela elaborar do caso de Teste | Nome do integrante da equipe |
+| Critérios de êxito | O cadastro esta sendo salvo no Local Storage do navegador. |
+| Responsável pela elaborar do caso de Teste | nome: |
  
 > **Links Úteis**:
 > - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
