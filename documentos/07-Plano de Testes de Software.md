@@ -12,7 +12,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
 | Critérios de êxito | Indicar os critérios de êxito  |
 | Responsável pela elaborar do caso de Teste | Nome do integrante da equipe |
 
-###
+#
 |Caso de Teste    | CT-01 - Verificar funcionalidade dos botões da página inicial |
 |:---|:---|
 | Requisitos Associados | RF-07	A plataforma deve desenvolver uma ferramenta de busca robusta que permita aos usuários encontrar cursos, materiais e informações específicos com facilidade. |
