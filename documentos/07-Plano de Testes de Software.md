@@ -1,54 +1,54 @@
-# Plano de Testes de Software
+Este documento descreve os testes funcionais a serem realizados na aplicação SciMinds, detalhando os passos, critérios de êxito e responsáveis por cada caso de teste.
 
-Pré-requisitos: <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/blob/main/documentos/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md"> Projeto SciMinds</a>
-
-Este documento descreve os testes funcionais a serem realizados na aplicação SciMinds.
-
-## Caso de Teste: CT-01 - Verificar funcionalidade dos botões da página inicial
+## CT-01 - Verificar Funcionalidade dos Botões da Página Inicial
 
 | Item | Descrição |
 |:----|:-----------|
-| Requisitos Associados | RF-07: A plataforma deve desenvolver uma ferramenta de busca robusta que permita aos usuários encontrar cursos, materiais e informações específicos com facilidade. |
-| Objetivo do Teste | Verificar se os links da página inicial estão direcionando para as páginas correspondentes. |
+| Requisitos Associados | RF-07: A plataforma deve desenvolver uma ferramenta de busca robusta. |
+| Objetivo do Teste | Verificar se os links da página inicial redirecionam corretamente. |
 | Passos | 1. Acessar o navegador.<br>2. Informar o endereço do site.<br>3. Visualizar a página inicial.<br>4. Clicar nos links da página inicial. |
-| Critérios de êxito | Os links da página inicial encaminham os usuários para as páginas descritas ou para âncoras de conteúdo na mesma página. |
+| Critérios de Êxito | Os links encaminham para as páginas ou âncoras de conteúdo corretas. |
 | Responsável | [Nome do Responsável] |
 
-##
-|Caso de Teste  | CT-02 - Criar cadastro de usuário |
-|:---|:---|
-| Requisitos Associados | RF-01	A plataforma deve permitir que os usuários se inscrevam na plataforma com facilidade, fornecendo informações pessoais e criando um perfil. |
-| Objetivo do Teste | Verificar se o cadastro esta sendo salvo. |
-| Passos | 1° Acessar página inicial.<br> 2° Clicar em inscreva-se.<br> 3° Realizar o cadastro informando os dados e concluindo em Cadastrar.<br> |
-| Critérios de êxito | O cadastro esta sendo salvo no Local Storage do navegador. |
-| Responsável pela elaborar do caso de Teste | nome: |
+## CT-02 - Criar Cadastro de Usuário
 
-##
-|Caso de Teste   | CT-03 - Verificar login de usuário |
-|:---|:---|
-| Requisitos Associados | RF-01	A plataforma deve permitir que os usuários se inscrevam na plataforma com facilidade, fornecendo informações pessoais e criando um perfil. |
-| Objetivo do Teste | Verificar se o cadastro salvo esta funcional. |
-| Passos | 1° Acessar página inicial.<br> 2° Clicar em Login no canto superior dierito.<br> 3° Informar os dados do cadastro e clicar em login.<br> |
-| Critérios de êxito | O cadastro salvo no Local Storage do navegador está sendo executado e levando o usuário à página de usuário. |
-| Responsável pela elaborar do caso de Teste | nome: |
+| Item | Descrição |
+|:----|:-----------|
+| Requisitos Associados | RF-01: Permitir inscrição dos usuários fornecendo informações pessoais. |
+| Objetivo do Teste | Verificar a funcionalidade de cadastro de usuário. |
+| Passos | 1. Acessar página inicial.<br>2. Clicar em 'Inscreva-se'.<br>3. Preencher e concluir o cadastro. |
+| Critérios de Êxito | O cadastro é salvo no Local Storage do navegador. |
+| Responsável | [Nome do Responsável] |
 
-##
-|Caso de Teste   | CT-04 - Verificar acesso aos eventos online |
-|:---|:---|
-| Requisitos Associados | RF-03	A plataforma deve disponibilizar materiais de ensino, como vídeos, artigos, quizzes e exercícios, para cada curso. |
-| Objetivo do Teste | Verificar se os eventos estão sendo redirecionados para suas respectivas matérias. |
-| Passos | 1° Acessar página inicial.<br> 2° Clicar em eventos, no menu navegação ou descer no conteúdo da pagina, e ir nos respectivos eventos de aulas. |
-| Critérios de êxito | Os respectivos eventos estão levando a suas determinadas matérias. |
-| Responsável pela elaborar do caso de Teste | nome: |
+## CT-03 - Verificar Login de Usuário
 
-##
-|Caso de Teste   | CT-05 - Salvar eventos como favoritos |
-|:---|:---|
-| Requisitos Associados |RF-05	A plataforma deve permitir que os usuários criem trilhas de aprendizado personalizadas com base em seus objetivos acadêmicos ou profissionais.|
-| Objetivo do Teste | Verificar se o evento salvo esta sendo favoritado na área de "eventos salvos" na página de usuário. |
-| Passos | 1° Na página de usuário.<br> 2° Clicar no menu sanduiche canto superior esquerdo, ao lado da logo.<br> 3° Clicar na opção Eventos Salvos.<br> |
-| Critérios de êxito | Os eventos estao sendo salvos na área respectiva. |
-| Responsável pela elaborar do caso de Teste | nome: |
+| Item | Descrição |
+|:----|:-----------|
+| Requisitos Associados | RF-01: Permitir inscrição e criação de perfil do usuário. |
+| Objetivo do Teste | Verificar a funcionalidade de login. |
+| Passos | 1. Acessar página inicial.<br>2. Clicar em 'Login'.<br>3. Informar dados de cadastro e realizar login. |
+| Critérios de Êxito | Login realizado com sucesso, acessando a página de usuário. |
+| Responsável | [Nome do Responsável] |
+
+## CT-04 - Verificar Acesso aos Eventos Online
+
+| Item | Descrição |
+|:----|:-----------|
+| Requisitos Associados | RF-03: Disponibilizar materiais de ensino para cada curso. |
+| Objetivo do Teste | Verificar redirecionamento para eventos online. |
+| Passos | 1. Acessar página inicial.<br>2. Clicar em 'Eventos' e selecionar um evento. |
+| Critérios de Êxito | Redirecionamento correto para a matéria do evento selecionado. |
+| Responsável | [Nome do Responsável] |
+
+## CT-05 - Salvar Eventos como Favoritos
+
+| Item | Descrição |
+|:----|:-----------|
+| Requisitos Associados | RF-05: Permitir que usuários criem trilhas de aprendizado personalizadas. |
+| Objetivo do Teste | Verificar funcionalidade de salvar eventos como favoritos. |
+| Passos | 1. Na página de usuário.<br>2. Clicar no menu sanduíche e selecionar 'Eventos Salvos'. |
+| Critérios de Êxito | Eventos são salvos na área de 'Eventos Salvos' na página do usuário. |
+| Responsável | [Nome do Responsável] |
 
 
  
