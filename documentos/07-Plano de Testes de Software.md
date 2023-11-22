@@ -2,7 +2,7 @@
 
 Pré-requisitos: <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/blob/main/documentos/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md"> Projeto SciMinds</a>
 
-Os testes funcionais a serem realizados na aplicação são descritos a seguir. [Utilize a estrutura abaixo para cada caso de teste]
+Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
 
 |Caso de Teste    | CT-01 - Verificar funcionalidade dos botões da página inicial |
 |:---|:---|
