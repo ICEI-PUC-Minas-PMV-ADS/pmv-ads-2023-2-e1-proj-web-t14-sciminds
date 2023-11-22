@@ -13,7 +13,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Responsável pela elaborar do caso de Teste | nome: |
 
 #
-|Caso de Teste    | CT-02 - Criar cadastro de usuário |
+|Caso de Teste   | CT-02 - Criar cadastro de usuário |
 |:---|:---|
 | Requisitos Associados | RF-01	A plataforma deve permitir que os usuários se inscrevam na plataforma com facilidade, fornecendo informações pessoais e criando um perfil. |
 | Objetivo do Teste | Verificar se o cadastro esta sendo salvo. |
@@ -22,7 +22,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Responsável pela elaborar do caso de Teste | nome: |
 
 #
-|Caso de Teste    | CT-03 - Verificar login de usuário |
+|Caso de Teste   | CT-03 - Verificar login de usuário |
 |:---|:---|
 | Requisitos Associados | RF-01	A plataforma deve permitir que os usuários se inscrevam na plataforma com facilidade, fornecendo informações pessoais e criando um perfil.<br>RF-03	A plataforma deve disponibilizar materiais de ensino, como vídeos, artigos, quizzes e exercícios, para cada curso. Certificar-se de que o conteúdo seja acessível de forma intuitiva. |
 | Objetivo do Teste | Verificar se o cadastro salvo esta funcional. |
