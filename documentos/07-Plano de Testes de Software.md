@@ -8,14 +8,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
 |:---|:---|
 | Requisitos Associados | RF-07	A plataforma deve desenvolver uma ferramenta de busca robusta que permita aos usuários encontrar cursos, materiais e informações específicos com facilidade. |
 | Objetivo do Teste | Verificar se os links da página inicial estão direcionando para as páginas correspondentes|
-| Passos | <td>
-   <ol>
-    <li>Acessar o navegador.</li>
-    <li>Informar o endereço do site.</li>
-    <li>Visualizar a página Home.</li>
-    <li>Clicar nos links da página Home.</li>
-   </ol>
-   </td>|
+| Passos | Indicar passos para a execução do teste |
 | Critérios de êxito | Indicar os critérios de êxito  |
 | Responsável pela elaborar do caso de Teste | Nome do integrante da equipe |
 
