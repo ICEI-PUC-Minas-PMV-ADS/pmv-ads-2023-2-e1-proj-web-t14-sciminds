@@ -13,11 +13,11 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
 | Responsável pela elaborar do caso de Teste | Nome do integrante da equipe |
 
 #
-|Caso de Teste    | CT-01 - Verificar funcionalidade dos botões da página inicial |
+|Caso de Teste    | CT-02 - Criar cadastro de usuário |
 |:---|:---|
-| Requisitos Associados | RF-07	A plataforma deve desenvolver uma ferramenta de busca robusta que permita aos usuários encontrar cursos, materiais e informações específicos com facilidade. |
-| Objetivo do Teste | Descrição do objetivo do teste |
-| Passos | Indicar passos para a execução do teste |
+| Requisitos Associados | RF-01	A plataforma deve permitir que os usuários se inscrevam na plataforma com facilidade, fornecendo informações pessoais e criando um perfil. |
+| Objetivo do Teste | Verificar se o cadastro esta sendo salvo e executavel. |
+| Passos | 1° Acessar página inicial.<br> 2° Clicar em inscreva-se.<br> 3° Realizar o cadastro informando os dados e concluindo em Cadastrar.<br> |
 | Critérios de êxito | Indicar os critérios de êxito  |
 | Responsável pela elaborar do caso de Teste | Nome do integrante da equipe |
  
