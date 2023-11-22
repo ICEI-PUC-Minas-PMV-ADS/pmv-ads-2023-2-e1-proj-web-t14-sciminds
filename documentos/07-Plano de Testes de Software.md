@@ -69,7 +69,7 @@ Este documento descreve os testes funcionais a serem realizados na aplicação S
 | Critérios de Êxito | As opções apresentadas são redirecionadas para sites especificos de cada matéria. |
 | Responsável | [Nome do Responsável] |
 
-##
+##.
 
 
  
