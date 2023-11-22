@@ -67,6 +67,7 @@ Este documento descreve os testes funcionais a serem realizados na aplicação S
 | Item | Descrição |
 |:----|:-----------|
 | Requisitos Associados | RF-03	A plataforma deve disponibilizar materiais de ensino, como vídeos, artigos, quizzes e exercícios, para cada curso. |
+| Objetivo do Teste | Verificar se a plataforma disponibiliza materias de ensino. |
 | Passos | 1. Na página de usuário.<br> 2. Clicar no menu sanduiche canto superior esquerdo, ao lado da logo.<br> 3. Clicar na opção Materiais de Apoio. 4. Escolher com qual matéria começar. |
 | Critérios de Êxito | As opções apresentadas são redirecionadas para sites especificos de cada matéria. |
 | Responsável | [Nome do Responsável] |
