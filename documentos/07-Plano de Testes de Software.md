@@ -4,9 +4,9 @@ Este documento descreve os testes funcionais a serem realizados na aplicação S
 
 | Item | Descrição |
 |:----|:-----------|
-| Requisitos Associados | RF-07: A plataforma deve desenvolver uma ferramenta de busca robusta. |
+| Requisitos Associados | RF-07	A plataforma deve desenvolver uma ferramenta de busca robusta que permita aos usuários encontrar cursos, materiais e informações específicos com facilidade. |
 | Objetivo do Teste | Verificar se os links da página inicial redirecionam corretamente. |
-| Passos | 1. Acessar o navegador.<br>2. Informar o endereço do site.<br>3. Visualizar a página inicial.<br>4. Clicar nos links da página inicial. |
+| Passos | 1. Acessar o navegador.<br>2. Informar o endereço do site.<br>3. Visualizar a página inicial.<br>4. Clicar nos links da página inicial, no menu navegação e cabeçalho. |
 | Critérios de Êxito | Os links encaminham para as páginas ou âncoras de conteúdo corretas. |
 | Responsável | [Nome do Responsável] |
 
@@ -14,9 +14,9 @@ Este documento descreve os testes funcionais a serem realizados na aplicação S
 
 | Item | Descrição |
 |:----|:-----------|
-| Requisitos Associados | RF-01: Permitir inscrição dos usuários fornecendo informações pessoais. |
-| Objetivo do Teste | Verificar a funcionalidade de cadastro de usuário. |
-| Passos | 1. Acessar página inicial.<br>2. Clicar em 'Inscreva-se'.<br>3. Preencher e concluir o cadastro. |
+| Requisitos Associados | RF-01	A plataforma deve permitir que os usuários se inscrevam na plataforma com facilidade, fornecendo informações pessoais e criando um perfil. |
+| Objetivo do Teste | Verificar a funcionalidade de cadastro de usuário esta sendo salvo. |
+| Passos | 1. Acessar página inicial.<br>2. Clicar em 'Inscreva-se'.<br>3. Preencher e concluir o cadastro clicando em cadastrar. |
 | Critérios de Êxito | O cadastro é salvo no Local Storage do navegador. |
 | Responsável | [Nome do Responsável] |
 
@@ -24,9 +24,9 @@ Este documento descreve os testes funcionais a serem realizados na aplicação S
 
 | Item | Descrição |
 |:----|:-----------|
-| Requisitos Associados | RF-01: Permitir login de perfil do usuário. |
-| Objetivo do Teste | Verificar a funcionalidade de login. |
-| Passos | 1. Acessar página inicial.<br>2. Clicar em 'Login'.<br>3. Informar dados de cadastro e realizar login. |
+| Requisitos Associados | RF-01	A plataforma deve permitir que os usuários se inscrevam na plataforma com facilidade, fornecendo informações pessoais e criando um perfil. |
+| Objetivo do Teste | Verificar se o cadastro salvo esta funcional.|
+| Passos | 1. Acessar página inicial.<br>2. Clicar em 'Login' no canto superior direito no cabeçalho.<br>3. Informar dados de cadastro e realizar login. |
 | Critérios de Êxito | Login realizado com sucesso, acessando a página de usuário. |
 | Responsável | [Nome do Responsável] |
 
@@ -34,9 +34,9 @@ Este documento descreve os testes funcionais a serem realizados na aplicação S
 
 | Item | Descrição |
 |:----|:-----------|
-| Requisitos Associados | RF-03: Disponibilizar materiais de ensino para cada curso. |
+| Requisitos Associados | RF-03	A plataforma deve disponibilizar materiais de ensino, como vídeos, artigos, quizzes e exercícios, para cada curso.  |
 | Objetivo do Teste | Verificar redirecionamento para eventos online. |
-| Passos | 1. Acessar página inicial.<br>2. Clicar em 'Eventos' e selecionar um evento. |
+| Passos | 1. Acessar página inicial.<br>2. Clicar em eventos, no menu navegação ou descer no conteúdo da pagina. 3. Escolher o evento se sua preferência. |
 | Critérios de Êxito | Redirecionamento correto para a matéria do evento selecionado. |
 | Responsável | [Nome do Responsável] |
 
@@ -44,9 +44,9 @@ Este documento descreve os testes funcionais a serem realizados na aplicação S
 
 | Item | Descrição |
 |:----|:-----------|
-| Requisitos Associados | RF-05: Permitir que usuários criem trilhas de aprendizado personalizadas. |
+| Requisitos Associados | RF-05	A plataforma deve permitir que os usuários criem trilhas de aprendizado personalizadas com base em seus objetivos acadêmicos ou profissionais. |
 | Objetivo do Teste | Verificar funcionalidade de salvar eventos como favoritos. |
-| Passos | 1. Na página de usuário.<br>2. Clicar no menu sanduíche e selecionar 'Eventos Salvos'. |
+| Passos | 1. Na página de usuário.<br> 2. Clicar no menu sanduiche canto superior esquerdo, ao lado da logo.<br> 3. Clicar na opção Eventos Salvos. |
 | Critérios de Êxito | Eventos são salvos na área de 'Eventos Salvos' na página do usuário. |
 | Responsável | [Nome do Responsável] |
 
