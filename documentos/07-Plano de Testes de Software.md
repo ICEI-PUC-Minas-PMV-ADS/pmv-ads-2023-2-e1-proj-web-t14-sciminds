@@ -45,7 +45,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Requisitos Associados |RF-05	A plataforma deve permitir que os usuários criem trilhas de aprendizado personalizadas com base em seus objetivos acadêmicos ou profissionais.|
 | Objetivo do Teste | Verificar se o evento salvo esta sendo favoritado na área de "eventos salvos" na página de usuário. |
 | Passos | 1° Na página de usuário.<br> 2° Clicar no menu sanduiche canto superior esquerdo, ao lado da logo.<br> 3° Clicar na opção Eventos Salvos.<br> |
-| Critérios de êxito | O cadastro salvo no Local Storage do navegador está sendo executado e levando o usuário à página de usuário. |
+| Critérios de êxito | Os eventos estao sendo salvos na área respectiva. |
 | Responsável pela elaborar do caso de Teste | nome: |
 
 
