@@ -1,6 +1,6 @@
 # Plano de Testes de Software
 
-Pré-requisitos: <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/blob/main/documentos/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md"> Projeto de Interface</a>
+Pré-requisitos: <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/blob/main/documentos/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md"> Projeto SciMinds</a>
 
 Os testes funcionais a serem realizados na aplicação são descritos a seguir. [Utilize a estrutura abaixo para cada caso de teste]
 
