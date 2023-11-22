@@ -39,6 +39,15 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Critérios de êxito | O cadastro salvo no Local Storage do navegador está sendo executado e levando o usuário à página de usuário. |
 | Responsável pela elaborar do caso de Teste | nome: |
 
+##
+|Caso de Teste  | CT-05 -  |
+|:---|:---|
+| Requisitos Associados | RF-07	A plataforma deve desenvolver uma ferramenta de busca robusta que permita aos usuários encontrar cursos, materiais e informações específicos com facilidade. |
+| Objetivo do Teste | Verificar se os links da página inicial estão direcionando para as páginas correspondentes|
+| Passos | 1° Acessar o navegador.<br> 2° Informar o endereço do site.<br> 3° Visualizar a página inicial.<br> 4° Clicar nos links da página inicial. |
+| Critérios de êxito |  Os links da página inicial  encaminham os usuários para as páginas descritas ou para ancoras de conteúdo na mesma página. |
+| Responsável pela elaborar do caso de Teste | nome: |
+
 
  
 > **Links Úteis**:
