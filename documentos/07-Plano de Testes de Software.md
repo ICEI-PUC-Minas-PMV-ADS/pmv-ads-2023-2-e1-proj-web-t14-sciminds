@@ -50,6 +50,26 @@ Este documento descreve os testes funcionais a serem realizados na aplicação S
 | Critérios de Êxito | Eventos são salvos na área de 'Eventos Salvos' na página do usuário. |
 | Responsável | [Nome do Responsável] |
 
+## CT-06 - Avaliar Aulas 
+
+| Item | Descrição |
+|:----|:-----------|
+| Requisitos Associados | RF-08	A plataforma deve permitir que os usuários avaliem os cursos e forneçam comentários para ajudar outros membros a fazer escolhas informadas. |
+| Objetivo do Teste | Verificar funcionalidade de avaliar as aulas salvas. |
+| Passos | 1. Na página de usuário.<br> 2. Clicar no menu sanduiche canto superior esquerdo, ao lado da logo.<br> 3. Clicar na opção Eventos Salvos. 4. Abaixo das Aulas Salvas opções de avaliar com ranque de 5 estrelas. |
+| Critérios de Êxito | Eventos são avaliados com o ranque definido pelo usuário. |
+| Responsável | [Nome do Responsável] |
+
+## CT-07 - Diponibilização de Materiais de Ensino
+
+| Item | Descrição |
+|:----|:-----------|
+| Requisitos Associados | RF-03	A plataforma deve disponibilizar materiais de ensino, como vídeos, artigos, quizzes e exercícios, para cada curso. |
+| Passos | 1. Na página de usuário.<br> 2. Clicar no menu sanduiche canto superior esquerdo, ao lado da logo.<br> 3. Clicar na opção Materiais de Apoio. 4. Escolher com qual matéria começar. |
+| Critérios de Êxito | As opções apresentadas são redirecionadas para sites especificos de cada matéria. |
+| Responsável | [Nome do Responsável] |
+
+
 
  
 > **Links Úteis**:
