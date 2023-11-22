@@ -31,18 +31,18 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Responsável pela elaborar do caso de Teste | nome: |
 
 ##
-|Caso de Teste   | CT-04 - Verificar login de usuário |
+|Caso de Teste   | CT-04 - Verificar acesso aos eventos online |
 |:---|:---|
-| Requisitos Associados | RF-03	A plataforma deve disponibilizar materiais de ensino, como vídeos, artigos, quizzes e exercícios, para cada curso. Certificar-se de que o conteúdo seja acessível de forma intuitiva. |
-| Objetivo do Teste | Verificar se o cadastro salvo esta funcional. |
-| Passos | 1° Acessar página inicial.<br> 2° Clicar em Login no canto superior dierito.<br> 3° Informar os dados do cadastro e clicar em login.<br> |
+| Requisitos Associados | RF-03	A plataforma deve disponibilizar materiais de ensino, como vídeos, artigos, quizzes e exercícios, para cada curso. |
+| Objetivo do Teste | Verificar se os eventos estão sendo redirecionados para suas respectivas matérias. |
+| Passos | 1° Acessar página inicial.<br> 2° Clicar em eventos, no menu navegação ou descer no conteúdo da pagina, e ir nos respectivos eventos de aulas. |
 | Critérios de êxito | O cadastro salvo no Local Storage do navegador está sendo executado e levando o usuário à página de usuário. |
 | Responsável pela elaborar do caso de Teste | nome: |
 
 ##
 |Caso de Teste   | CT-05 -  |
 |:---|:---|
-| Requisitos Associados | RF-03	A plataforma deve disponibilizar materiais de ensino, como vídeos, artigos, quizzes e exercícios, para cada curso. Certificar-se de que o conteúdo seja acessível de forma intuitiva. |
+| Requisitos Associados |RF-04	A plataforma deve implementar recursos que permitam aos usuários realizar avaliações e exercícios práticos relacionados aos cursos. |
 | Objetivo do Teste | Verificar se o cadastro salvo esta funcional. |
 | Passos | 1° Acessar página inicial.<br> 2° Clicar em Login no canto superior dierito.<br> 3° Informar os dados do cadastro e clicar em login.<br> |
 | Critérios de êxito | O cadastro salvo no Local Storage do navegador está sendo executado e levando o usuário à página de usuário. |
