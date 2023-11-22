@@ -4,7 +4,7 @@ Pré-requisitos: <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023
 
 Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
 
-|Caso de Teste    | CT-01 - Verificar funcionalidade dos botões da página inicial |
+|Caso de Teste  | CT-01 - Verificar funcionalidade dos botões da página inicial |
 |:---|:---|
 | Requisitos Associados | RF-07	A plataforma deve desenvolver uma ferramenta de busca robusta que permita aos usuários encontrar cursos, materiais e informações específicos com facilidade. |
 | Objetivo do Teste | Verificar se os links da página inicial estão direcionando para as páginas correspondentes|
