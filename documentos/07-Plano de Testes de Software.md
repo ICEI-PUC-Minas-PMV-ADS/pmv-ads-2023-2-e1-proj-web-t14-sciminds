@@ -1,4 +1,4 @@
-Pré-requisitos: <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/blob/main/documentos/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md">Projeto de Sciminds</a>
+Requisitos: <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/blob/main/documentos/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md">Projeto de Sciminds</a>
 
 Este documento descreve os testes funcionais a serem realizados na aplicação SciMinds, detalhando os passos, critérios de êxito e responsáveis por cada caso de teste.
 
