@@ -2,15 +2,17 @@
 
 Pré-requisitos: <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/blob/main/documentos/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md"> Projeto SciMinds</a>
 
-Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
-##
-|Caso de Teste  | CT-01 - Verificar funcionalidade dos botões da página inicial |
-|:---|:---|
-| Requisitos Associados | RF-07	A plataforma deve desenvolver uma ferramenta de busca robusta que permita aos usuários encontrar cursos, materiais e informações específicos com facilidade. |
-| Objetivo do Teste | Verificar se os links da página inicial estão direcionando para as páginas correspondentes|
-| Passos | 1° Acessar o navegador.<br> 2° Informar o endereço do site.<br> 3° Visualizar a página inicial.<br> 4° Clicar nos links da página inicial. |
-| Critérios de êxito |  Os links da página inicial  encaminham os usuários para as páginas descritas ou para ancoras de conteúdo na mesma página. |
-| Responsável pela elaborar do caso de Teste | nome: |
+Este documento descreve os testes funcionais a serem realizados na aplicação SciMinds.
+
+## Caso de Teste: CT-01 - Verificar funcionalidade dos botões da página inicial
+
+| Item | Descrição |
+|:----|:-----------|
+| Requisitos Associados | RF-07: A plataforma deve desenvolver uma ferramenta de busca robusta que permita aos usuários encontrar cursos, materiais e informações específicos com facilidade. |
+| Objetivo do Teste | Verificar se os links da página inicial estão direcionando para as páginas correspondentes. |
+| Passos | 1. Acessar o navegador.<br>2. Informar o endereço do site.<br>3. Visualizar a página inicial.<br>4. Clicar nos links da página inicial. |
+| Critérios de êxito | Os links da página inicial encaminham os usuários para as páginas descritas ou para âncoras de conteúdo na mesma página. |
+| Responsável | [Nome do Responsável] |
 
 ##
 |Caso de Teste  | CT-02 - Criar cadastro de usuário |
