@@ -16,7 +16,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
 |Caso de Teste    | CT-02 - Criar cadastro de usuário |
 |:---|:---|
 | Requisitos Associados | RF-01	A plataforma deve permitir que os usuários se inscrevam na plataforma com facilidade, fornecendo informações pessoais e criando um perfil. |
-| Objetivo do Teste | Verificar se o cadastro esta sendo salvo e executavel. |
+| Objetivo do Teste | Verificar se o cadastro esta sendo salvo. |
 | Passos | 1° Acessar página inicial.<br> 2° Clicar em inscreva-se.<br> 3° Realizar o cadastro informando os dados e concluindo em Cadastrar.<br> |
 | Critérios de êxito | O cadastro esta sendo salvo no Local Storage do navegador. |
 | Responsável pela elaborar do caso de Teste | nome: |
