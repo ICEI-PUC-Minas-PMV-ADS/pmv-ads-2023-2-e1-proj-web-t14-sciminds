@@ -48,6 +48,7 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 |Caso de Teste    | CT-04 - Verificar Acesso aos Eventos Online|
 |:---|:---|
 | Resultados obtidos | Cada evento leva a sua aula respectiva.  |
+| Responsável pela execução do caso de Teste | GLEISON OLIVEIRA QUEIROZ |
 
 ![SCIMINDS - Teste Eventos online](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/assets/132619543/c950ecbd-23d4-4104-9d4e-cc4df90521da)
 
@@ -55,6 +56,7 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 |Caso de Teste    | CT-05 - Salvar Eventos como Favoritos e CT-06 - Avaliar Aulas|
 |:---|:---|
 | Resultados obtidos | Botao Salvar video, envia o video para página "eventos salvos" na página de usuário onde é possivel avaliar o video com ranque de até 5 estrelas e um botão para remover os eventos salvos.|
+| Responsável pela execução do caso de Teste | GLEISON OLIVEIRA QUEIROZ |
 
 ![SCIMINDS - Favoritar](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/assets/132619543/da69907f-3ffb-4898-a40b-8cbe89263943)
 
@@ -62,6 +64,7 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 |Caso de Teste    | CT-07 - Diponibilização de Materiais de Ensino|
 |:---|:---|
 | Resultados obtidos |  disponibilização de materiais de ensino para cada curso desejado. |
+| Responsável pela execução do caso de Teste | GLEISON OLIVEIRA QUEIROZ |
 
 ![SCIMINDS - material de apoio](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/assets/132619543/a5d78635-4d3d-42e6-ba73-3e74410c0f28)
 
