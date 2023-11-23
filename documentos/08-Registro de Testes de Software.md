@@ -7,7 +7,6 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 |Caso de Teste    | CT-01 - Verificar Funcionalidade dos Botões da Página Inicial. |
 ## Caso de Teste  CT-01 - Verificar Funcionalidade dos Botões da Página Inicial
 
-![SCIMINDS - teste pagina inicial](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/assets/132619543/4dc80fda-3347-47fc-ac3f-0545c9970b16)
 
 
 
@@ -15,3 +14,4 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 | Responsável pela execução do caso de Teste | Nome do integrante da equipe |
 
 [Inserir aqui as evidências de teste que podem ser apresentadas por print de telas ou por .gif de execução de teste]
+![SCIMINDS - teste pagina inicial](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/assets/132619543/4dc80fda-3347-47fc-ac3f-0545c9970b16)
