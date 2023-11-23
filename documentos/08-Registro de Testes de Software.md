@@ -5,7 +5,7 @@ Relatório com as evidências dos testes de software realizados na aplicação p
 Os resultados dos testes funcionais realizados na aplicação são descritos a seguir. [Utilize a estrutura abaixo para cada caso de teste executado]
 
 
-## Caso de Teste  CT-01 - Verificar Funcionalidade dos Botões da Página Inicial
+
 |Caso de Teste    | CT-01 - Verificar Funcionalidade dos Botões da Página Inicial|
 |:---|:---|
 | Resultados obtidos | links funcionais, enviando o usuário aos locais corretos da página.  |
