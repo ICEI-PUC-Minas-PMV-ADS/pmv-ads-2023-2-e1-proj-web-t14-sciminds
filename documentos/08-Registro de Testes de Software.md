@@ -18,3 +18,5 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 |:---|:---|
 | Resultados obtidos | links funcionais, enviando o usuário aos locais corretos da página.  |
 | Responsável pela execução do caso de Teste | Nome do integrante da equipe |
+
+![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/blob/main/documentos/img/testeCadastro.jpg)
