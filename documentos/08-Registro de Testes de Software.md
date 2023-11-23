@@ -5,7 +5,7 @@ Relatório com as evidências dos testes de software realizados na aplicação p
 Os resultados dos testes funcionais realizados na aplicação são descritos a seguir. [Utilize a estrutura abaixo para cada caso de teste executado]
 
 
-## CT-01 -
+## CT-01 
 |Caso de Teste    | CT-01 - Verificar Funcionalidade dos Botões da Página Inicial|
 |:---|:---|
 | Resultados obtidos | links funcionais, enviando o usuário aos locais corretos da página.  |
@@ -13,7 +13,7 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 
 ![SCIMINDS - teste pagina inicial](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/assets/132619543/4dc80fda-3347-47fc-ac3f-0545c9970b16)
 
-## CT-02 -
+## CT-02 
 |Caso de Teste    | CT-02 - Criar Cadastro de Usuário|
 |:---|:---|
 | Resultados obtidos | Caso o usuário forneça senhas diferentes, ocorre um erro no formulário e no campo onde haja o erro fica evidenciado em vermelho.|
@@ -28,7 +28,7 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 
 ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/blob/main/documentos/img/salvamentoLocalStorage.jpg)
 
-## CT-03 -
+## CT-03 
 |Caso de Teste    | CT-03 - Login de Usuário|
 |:---|:---|
 | Resultados obtidos | Após o cadastro, usuário poderá logar com os dados fornecidos.|
@@ -42,11 +42,16 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 
 ![SCIMINDS - Teste logini valido](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/assets/132619543/e0c72e0d-08ae-4481-b92f-bdb635cdf6f5)
 
-## CT-04 -
+## CT-04 
 |Caso de Teste    | CT-04 - Verificar Acesso aos Eventos Online|
 |:---|:---|
 | Resultados obtidos | Cada evento leva a sua aula respectiva.  |
 
 ![SCIMINDS - Teste Eventos online](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/assets/132619543/c950ecbd-23d4-4104-9d4e-cc4df90521da)
+
+## CT-05 
+|Caso de Teste    | CT-05 - Salvar Eventos como Favoritos|
+|:---|:---|
+| Resultados obtidos | Cada evento leva a sua aula respectiva.  |
 
 
