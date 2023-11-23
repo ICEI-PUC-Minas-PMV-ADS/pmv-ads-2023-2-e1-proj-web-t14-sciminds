@@ -17,4 +17,5 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 |Caso de Teste    | CT-02 - Criar Cadastro de Usuário|
 |:---|:---|
 | Resultados obtidos | Caso o usuário forneça senhas diferentes, ocorre um erro no formulário e no campo onde haja o erro fica evidenciado em vermelho.|
+
 ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/blob/main/documentos/img/testeCadastro.jpg)
