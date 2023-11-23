@@ -52,7 +52,7 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 ## CT-05 e CT-06
 |Caso de Teste    | CT-05 - Salvar Eventos como Favoritos e CT-06 - Avaliar Aulas|
 |:---|:---|
-| Resultados obtidos | Botao Salvar video, envia o video para página "eventos salvos" na página de usuário onde é possivel avaliar o video com ranque de até 5 estrelas.|
+| Resultados obtidos | Botao Salvar video, envia o video para página "eventos salvos" na página de usuário onde é possivel avaliar o video com ranque de até 5 estrelas e um botão para remover os eventos salvos.|
 
 ![SCIMINDS - Favoritar](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/assets/132619543/da69907f-3ffb-4898-a40b-8cbe89263943)
 
