@@ -33,4 +33,12 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 |:---|:---|
 | Resultados obtidos | Após o cadastro, usuário poderá logar com os dados fornecidos.|
 
-![]()
+
+**Caso o usuário forneça login e senha diferentes um alerta é dado de usuario ou senha inválidos.**
+
+![logininvalido](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/assets/132619543/5204ca8f-7b5b-4397-ba7b-d7c08276cff3)
+
+**Caso o usuário forneça login e senha corretos ele é emcaminhado a página de usuário.**
+
+![SCIMINDS - Teste logini valido](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/assets/132619543/e0c72e0d-08ae-4481-b92f-bdb635cdf6f5)
+
