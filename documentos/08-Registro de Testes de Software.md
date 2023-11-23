@@ -56,4 +56,11 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 
 ![SCIMINDS - Favoritar](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/assets/132619543/da69907f-3ffb-4898-a40b-8cbe89263943)
 
+## CT-07
+|Caso de Teste    | CT-07 - Diponibilização de Materiais de Ensino|
+|:---|:---|
+| Resultados obtidos |  disponibilização de materiais de ensino para cada curso desejado. |
+
+
+
 
