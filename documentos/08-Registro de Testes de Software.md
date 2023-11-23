@@ -28,3 +28,9 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 
 ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/blob/main/documentos/img/salvamentoLocalStorage.jpg)
 
+## CT-03 -
+|Caso de Teste    | CT-03 - Login de Usuário|
+|:---|:---|
+| Resultados obtidos | Após o cadastro, usuário poderá logar com os dados fornecidos.|
+
+![]()
