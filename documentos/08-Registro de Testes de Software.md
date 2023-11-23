@@ -22,7 +22,7 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 
 
 
- ##Caso o usuário forneça senhas iguais consegue dar andamento no seu cadastro.
+ **Caso o usuário forneça senhas iguais consegue dar andamento no seu cadastro.**
 
 ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/blob/main/documentos/img/cadastoValido.jpg)
 
