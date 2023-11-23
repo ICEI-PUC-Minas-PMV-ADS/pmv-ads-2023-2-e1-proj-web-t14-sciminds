@@ -9,7 +9,7 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 |Caso de Teste    | CT-01 - Verificar Funcionalidade dos Botões da Página Inicial|
 |:---|:---|
 | Resultados obtidos | links funcionais, enviando o usuário aos locais corretos da página.  |
-| Responsável pela execução do caso de Teste | Nome do integrante da equipe |
+| Responsável pela execução do caso de Teste | KAYQUE FAGUNDES |
 
 ![SCIMINDS - teste pagina inicial](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/assets/132619543/4dc80fda-3347-47fc-ac3f-0545c9970b16)
 
@@ -17,6 +17,7 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 |Caso de Teste    | CT-02 - Criar Cadastro de Usuário|
 |:---|:---|
 | Resultados obtidos | Caso o usuário forneça senhas diferentes, ocorre um erro no formulário e no campo onde haja o erro fica evidenciado em vermelho.|
+| Responsável pela execução do caso de Teste | KAYQUE FAGUNDES |
 
 ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/blob/main/documentos/img/testeCadastro.jpg)
 
@@ -32,6 +33,7 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 |Caso de Teste    | CT-03 - Login de Usuário|
 |:---|:---|
 | Resultados obtidos | Após o cadastro, usuário poderá logar com os dados fornecidos.|
+| Responsável pela execução do caso de Teste | KAYQUE FAGUNDES |
 
 
 **Caso o usuário forneça login e senha diferentes um alerta é dado de usuario ou senha inválidos.**
