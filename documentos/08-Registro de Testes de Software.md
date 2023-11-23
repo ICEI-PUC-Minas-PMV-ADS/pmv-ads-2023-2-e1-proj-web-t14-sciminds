@@ -16,7 +16,5 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 ## CT-02 -
 |Caso de Teste    | CT-02 - Criar Cadastro de Usuário|
 |:---|:---|
-| Resultados obtidos | links funcionais, enviando o usuário aos locais corretos da página.  |
-| Responsável pela execução do caso de Teste | Nome do integrante da equipe |
-
+| Resultados obtidos | Caso o usuário forneça senhas diferentes, ocorre um erro no formulário e no campo onde haja o erro fica evidenciado em vermelho.|
 ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/blob/main/documentos/img/testeCadastro.jpg)
