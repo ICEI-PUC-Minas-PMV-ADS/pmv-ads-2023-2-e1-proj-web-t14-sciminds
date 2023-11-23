@@ -45,6 +45,8 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 ## CT-04 -
 |Caso de Teste    | CT-04 - Verificar Acesso aos Eventos Online|
 |:---|:---|
-| Resultados obtidos | links funcionais, enviando o usuário aos locais corretos da página.  |
-| Responsável pela execução do caso de Teste | Nome do integrante da equipe |
+| Resultados obtidos | Cada evento leva a sua aula respectiva.  |
+
+![SCIMINDS - Teste Eventos online](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/assets/132619543/c950ecbd-23d4-4104-9d4e-cc4df90521da)
+
 
