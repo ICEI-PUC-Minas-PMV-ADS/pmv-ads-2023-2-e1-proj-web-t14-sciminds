@@ -52,6 +52,6 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 ## CT-05 
 |Caso de Teste    | CT-05 - Salvar Eventos como Favoritos|
 |:---|:---|
-| Resultados obtidos | Cada evento leva a sua aula respectiva.  |
+| Resultados obtidos | Botao Salvar video, envia o video para página "eventos salvos" na página de usuário.  |
 
 
