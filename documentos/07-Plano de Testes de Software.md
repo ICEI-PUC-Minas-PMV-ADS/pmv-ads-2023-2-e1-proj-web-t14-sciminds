@@ -60,7 +60,7 @@ Este documento descreve os testes funcionais a serem realizados na aplicação S
 | Objetivo do Teste | Verificar funcionalidade de avaliar as aulas salvas. |
 | Passos | 1. Na página de usuário.<br> 2. Clicar no menu sanduiche canto superior esquerdo, ao lado da logo.<br> 3. Clicar na opção Eventos Salvos. 4. Abaixo das Aulas Salvas opções de avaliar com ranque de 5 estrelas. |
 | Critérios de Êxito | Eventos são avaliados com o ranque definido pelo usuário. |
-| Responsável | [Nome do Responsável] |
+| Responsável | GLEISON OLIVEIRA QUEIROZ |
 
 ## CT-07 - Diponibilização de Materiais de Ensino
 
