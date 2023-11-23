@@ -61,6 +61,6 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 |:---|:---|
 | Resultados obtidos |  disponibilização de materiais de ensino para cada curso desejado. |
 
-
+![SCIMINDS - material de apoio](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/assets/132619543/a5d78635-4d3d-42e6-ba73-3e74410c0f28)
 
 
