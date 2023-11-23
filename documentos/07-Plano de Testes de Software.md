@@ -10,7 +10,7 @@ Este documento descreve os testes funcionais a serem realizados na aplicação S
 | Objetivo do Teste | Verificar se os links da página inicial redirecionam corretamente. |
 | Passos | 1. Acessar o navegador.<br>2. Informar o endereço do site.<br>3. Visualizar a página inicial.<br>4. Clicar nos links da página inicial, no menu navegação e cabeçalho. |
 | Critérios de Êxito | Os links encaminham para as páginas ou âncoras de conteúdo corretas. |
-| Responsável | [Nome do Responsável] |
+| Responsável | KAYQUE FAGUNDES |
 
 ## CT-02 - Criar Cadastro de Usuário
 
@@ -20,7 +20,7 @@ Este documento descreve os testes funcionais a serem realizados na aplicação S
 | Objetivo do Teste | Verificar a funcionalidade de cadastro de usuário esta sendo salvo. |
 | Passos | 1. Acessar página inicial.<br>2. Clicar em 'Inscreva-se'.<br>3. Preencher e concluir o cadastro clicando em cadastrar. |
 | Critérios de Êxito | O cadastro é salvo no Local Storage do navegador. |
-| Responsável | [Nome do Responsável] |
+| Responsável | KAYQUE FAGUNDES |
 
 ## CT-03 - Verificar Login de Usuário
 
@@ -30,7 +30,7 @@ Este documento descreve os testes funcionais a serem realizados na aplicação S
 | Objetivo do Teste | Verificar se o cadastro salvo esta funcional.|
 | Passos | 1. Acessar página inicial.<br>2. Clicar em 'Login' no canto superior direito no cabeçalho.<br>3. Informar dados de cadastro e realizar login. |
 | Critérios de Êxito | Login realizado com sucesso, acessando a página de usuário. |
-| Responsável | [Nome do Responsável] |
+| Responsável | KAYQUE FAGUNDES |
 
 ## CT-04 - Verificar Acesso aos Eventos Online
 
@@ -40,7 +40,7 @@ Este documento descreve os testes funcionais a serem realizados na aplicação S
 | Objetivo do Teste | Verificar redirecionamento para eventos online. |
 | Passos | 1. Acessar página inicial.<br>2. Clicar em eventos, no menu navegação ou descer no conteúdo da pagina. 3. Escolher o evento se sua preferência. |
 | Critérios de Êxito | Redirecionamento correto para a matéria do evento selecionado. |
-| Responsável | [Nome do Responsável] |
+| Responsável | GLEISON OLIVEIRA QUEIROZ |
 
 ## CT-05 - Salvar Eventos como Favoritos
 
@@ -50,7 +50,7 @@ Este documento descreve os testes funcionais a serem realizados na aplicação S
 | Objetivo do Teste | Verificar funcionalidade de salvar eventos como favoritos. |
 | Passos | 1. Na página de usuário.<br> 2. Clicar no menu sanduiche canto superior esquerdo, ao lado da logo.<br> 3. Clicar na opção Eventos Salvos. |
 | Critérios de Êxito | Eventos são salvos na área de 'Eventos Salvos' na página do usuário. |
-| Responsável | [Nome do Responsável] |
+| Responsável | GLEISON OLIVEIRA QUEIROZ |
 
 ## CT-06 - Avaliar Aulas 
 
@@ -70,7 +70,7 @@ Este documento descreve os testes funcionais a serem realizados na aplicação S
 | Objetivo do Teste | Verificar se a plataforma disponibiliza materias de ensino. |
 | Passos | 1. Na página de usuário.<br> 2. Clicar no menu sanduiche canto superior esquerdo, ao lado da logo.<br> 3. Clicar na opção Materiais de Apoio. 4. Escolher com qual matéria começar. |
 | Critérios de Êxito | As opções apresentadas são redirecionadas para sites especificos de cada matéria. |
-| Responsável | [Nome do Responsável] |
+| Responsável | GLEISON OLIVEIRA QUEIROZ |
 
 
 
