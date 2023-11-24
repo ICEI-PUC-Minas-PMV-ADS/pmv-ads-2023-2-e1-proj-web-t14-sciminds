@@ -58,7 +58,7 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 | Resultados obtidos | Botao Salvar video, envia o video para página "eventos salvos" na página de usuário onde é possivel avaliar o video com ranque de até 5 estrelas e um botão para remover os eventos salvos.|
 | Responsável pela execução do caso de Teste | GLEISON OLIVEIRA QUEIROZ |
 
-![SCIMINDS - Favoritar](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/assets/132619543/da69907f-3ffb-4898-a40b-8cbe89263943)
+![SCIMINDS - Favoritar](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/blob/main/documentos/img/aulas%20salvas.mp4)
 
 ## CT-07
 |Caso de Teste    | CT-07 - Diponibilização de Materiais de Ensino|
@@ -66,6 +66,5 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 | Resultados obtidos |  disponibilização de materiais de ensino para cada curso desejado. |
 | Responsável pela execução do caso de Teste | GLEISON OLIVEIRA QUEIROZ |
 
-![SCIMINDS - material de apoio](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/assets/132619543/a5d78635-4d3d-42e6-ba73-3e74410c0f28)
-
+![SCIMINDS - material de apoio](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/blob/main/documentos/img/tela%20usuario1.mp4)
 
