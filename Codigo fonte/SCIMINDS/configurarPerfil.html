@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="telaUsuario.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>SCIMINDS</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+
+        <a href="./index.html">
+            <h1>SciMinds</h1>
+        </a>
+
+        <div class="grupo-direito">
+            
+            <span class="nome-usuario">
+
+                <div id="logado"> </div>
+            </span>
+        </div>
+
+    </header>
+ 
+
+    <section class="perfil-usuario">
+
+        <h2>Configuração do Perfil</h2>
+
+        <form id="formPerfil" action="/submit-profile" method="POST" enctype="multipart/form-data">
+
+            <div class="campo-form">
+                <label for="nomeUsuario">Nome:</label>
+                <input type="text" id="nomeUsuario" name="nomeUsuario" required>
+            </div>
+
+            <div class="campo-form">
+                <label for="fotoPerfil">Foto de Perfil:</label>
+                <input type="file" id="fotoPerfil" name="fotoPerfil" accept="image/*">
+            </div>
+
+            <div class="campo-form">
+                <label for="telefoneUsuario">Telefone:</label>
+                <input type="tel" id="telefoneUsuario" name="telefoneUsuario"  placeholder="XX-XXXX-XXXX" required>
+            </div>
+            
+            <button type="submit">Salvar Perfil</button>
+
+        </form>
+
+    </section>
+
+</body>
+
+</html>

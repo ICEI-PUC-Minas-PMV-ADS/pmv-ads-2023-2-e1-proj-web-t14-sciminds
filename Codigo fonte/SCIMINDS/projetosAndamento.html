@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="telaUsuario.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>SCIMINDS</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+
+        <a href="./index.html">
+            <img src="./Imagens/rocket e logo.png" id="rocket">
+        </a>
+
+        <div class="menu-hamburguer" id="btnMenuHamburguer">
+            &#9776;
+        </div>
+
+        <div class="grupo-direito">
+
+            <i class="fas fa-bell icone-notificacao"></i>
+
+            <img src="./Imagens/imgusuario.jpg" id="abrirModal" alt="imagem de usuario" class="imagem-usuario">
+
+            <span class="nome-usuario">
+
+                <div id="logado"> </div>
+            </span>
+        </div>
+
+    </header>
+
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+
+    <div id="barraLateral" class="barra-lateral">
+        <a href="./inscrito.html"><b>Inicio</b></a>
+        <a href="./projetosAndamento.html"><b>Projetos</b></a>
+        <a href="./eventosAndamento.html"><b>Eventos Salvos</b></a>
+        <a href="#"><b>Eventos finalizados</b></a>
+        <a href="forum.html"><b>Forúns</b></a>
+        <a href="./materialApoio.html"><b>Materiais de apoio</b></a>
+    </div>
+
+    <div id="modalUsuario" class="modal">
+        <div class="modal-conteudo">
+            <span class="fechar-modal">&times;</span>
+            <h2>Informações do Usuário</h2><br>
+
+            <div class="info">
+                <span><b>Nome:</b></span>
+                <div id="logadoModal"></div>
+            </div>
+
+            <div class="info">
+                <span><b>E-mail:</b></span>
+                <div id="email"></div>
+            </div>
+
+            <div class="info">
+                <span><b>Telefone:</b></span>
+                <div id=></div>
+            </div>
+
+            <p><a href="configurarPerfil.html"><b>Editar Perfil</b></a> </p>
+
+            <p><a href="" onclick='Logout()'><b>Sair</b></a></p>
+
+        </div>
+    </div>
+    <br><br>
+
+    <main class="conteudo">
+
+        <div class="area-projeto">
+            <h2>Iniciar Projeto</h2>
+            <button onclick="abrirModalNomeProjeto()">Novo Projeto</button>
+            <button onclick="iniciarLive()">Gravar Live</button>
+            <!--<button id="startWebcam">Iniciar Webcam</button> futuro-->
+            <button onclick="uploadArquivo()">Upload de Arquivos</button>
+        </div>
+
+        <!-- Modal para nomear o projeto -->
+        <div id="modalNomeProjeto" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="fecharModalNomeProjeto()">&times;</span>
+                <h3>Nome do Projeto</h3>
+                <input type="text" id="nomeProjeto" placeholder="Digite o nome do projeto">
+                <p>Selecione o tipo de projeto:</p>
+                <input type="radio" id="tipoVideo" name="tipoProjeto" value="video">
+                <label for="tipoVideo">Vídeo</label><br>
+                <input type="radio" id="tipoTexto" name="tipoProjeto" value="texto">
+                <label for="tipoTexto">Texto</label><br>
+                <button onclick="salvarProjeto()">Salvar Projeto</button>
+            </div>
+        </div>
+
+        <div id="novosProjetos">
+
+
+         
+        </div>
+
+    </main>
+
+
+
+    <footer>
+        <p>&copy; 2023 SciMinds - Todos os direitos reservados.</p>
+    </footer>
+
+
+    <script>
+        if (localStorage.getItem('token') == null) {
+            alert('Você precisa estar logado para acessar esta página')
+            window.location.href = './login.html'
+        }
+
+        function Logout() {
+            localStorage.removeItem('token')
+            window.location.href = './login.html'
+        }
+
+        // Recupera os dados de usuário
+        let userlogado = JSON.parse(localStorage.getItem('userlogado'))
+        let logado = document.querySelector('#logado')
+        let logadoModal = document.querySelector('#logadoModal');
+        let email = document.querySelector('#email')
+
+        logado.innerHTML = `${userlogado.nome}`
+        logadoModal.innerHTML = `${userlogado.nome}`;
+        email.innerHTML = `${userlogado.usuario}@gmail.com`
+
+
+    </script>
+
+    <!-- janela modal usuario-->
+
+    <script>
+        document.getElementById('abrirModal').addEventListener('click', function () {
+            document.getElementById('modalUsuario').style.display = 'block';
+        });
+
+        document.querySelector('.fechar-modal').addEventListener('click', function () {
+            document.getElementById('modalUsuario').style.display = 'none';
+        });
+
+        window.addEventListener('click', function (event) {
+            if (event.target == document.getElementById('modalUsuario')) {
+                document.getElementById('modalUsuario').style.display = 'none';
+            }
+        });
+    </script>
+
+    <!-- barra lateral-->
+
+    <script>
+        document.getElementById('btnMenuHamburguer').addEventListener('click', function () {
+            var barra = document.getElementById('barraLateral');
+
+            if (barra.style.width === "0px" || barra.style.width === "") {
+                barra.style.width = "250px";
+            } else {
+                barra.style.width = "0px";
+            }
+        });
+    </script>
+
+    <!-- projetos -->
+    <script>
+        function iniciarLive() {
+            alert("Opção indisponivel no momento.");
+        }
+
+        function uploadArquivo() {
+            alert("Opção indisponivel no momento.");
+        }
+
+    </script>
+
+    <script>
+        function abrirModalNomeProjeto() {
+            document.getElementById('modalNomeProjeto').style.display = 'block';
+        }
+
+        function fecharModalNomeProjeto() {
+            document.getElementById('modalNomeProjeto').style.display = 'none';
+        }
+
+        function salvarProjeto() {
+            var nomeProjeto = document.getElementById('nomeProjeto').value;
+            var tipoProjeto = document.querySelector('input[name="tipoProjeto"]:checked').value;
+            alert("Projeto Salvo: " + nomeProjeto + " - Tipo: " + tipoProjeto);
+            fecharModalNomeProjeto();
+        }
+
+        // Funções para os outros botões
+        /* ... */
+
+    </script>
+
+    <script>
+        function salvarProjeto() {
+            var nomeProjeto = document.getElementById('nomeProjeto').value;
+            var tipoProjeto = document.querySelector('input[name="tipoProjeto"]:checked').value;
+
+            if (tipoProjeto === "video") {
+                criarAreaVideo(nomeProjeto);
+            } else if (tipoProjeto === "texto") {
+                criarAreaTexto(nomeProjeto);
+            }
+
+            fecharModalNomeProjeto();
+        }
+
+        function criarAreaVideo(nome) {
+            var areaProjeto = document.createElement("div");
+            areaProjeto.innerHTML = `
+        <h3>${nome}</h3>
+        <input type="file" accept="video/*" onchange="carregarVideo(this, '${nome}')">
+        <video id="video-${nome}" controls style="display:none;"></video>`;
+
+            // Selecionando a div com ID 'novosProjetos' e adicionando o novo conteúdo a ela
+            document.getElementById('novosProjetos').appendChild(areaProjeto);
+        }
+
+        function carregarVideo(input, nome) {
+            var file = input.files[0];
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                var videoElement = document.getElementById('video-' + nome);
+                videoElement.src = e.target.result;
+                videoElement.style.display = 'block';
+            };
+
+            reader.readAsDataURL(file);
+        }
+
+        function criarAreaTexto(nome) {
+            var areaProjeto = document.createElement("div");
+            areaProjeto.innerHTML = "<h3>" + nome + "</h3><textarea>Seu texto aqui.</textarea>";
+
+            // Selecionando a div com ID 'novosProjetos' e adicionando o novo conteúdo a ela
+            document.getElementById('novosProjetos').appendChild(areaProjeto);
+        }
+
+    </script>
+
+    <!--<script>
+        document.getElementById('startWebcam').addEventListener('click', function () {
+            if (navigator.mediaDevices.getUserMedia) {
+                navigator.mediaDevices.getUserMedia({ video: true })
+                    .then(function (stream) {
+                        var video = document.getElementById('webcamVideo');
+                        video.srcObject = stream;
+                        video.style.display = 'block';
+                    })
+                    .catch(function (error) {
+                        console.error("Erro ao acessar a webcam: ", error);
+                    });
+            } else {
+                alert("getUserMedia não é suportado neste navegador.");
+            }
+        });
+
+    </script>-->
+
+    <script>
+        alert("Página em construção...")
+    </script>
+</body>
+
+</html>

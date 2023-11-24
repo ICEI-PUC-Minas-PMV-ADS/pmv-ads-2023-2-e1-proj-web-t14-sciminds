@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="telaUsuario.css">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Eventos Em Andamento</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+
+        <a href="./index.html">
+            <img src="./Imagens/rocket e logo.png" id="rocket">
+        </a>
+
+        <div class="menu-hamburguer" id="btnMenuHamburguer">
+            &#9776;
+        </div>
+
+        <div class="grupo-direito">
+
+            <i class="fas fa-bell icone-notificacao"></i>
+
+            <img src="./Imagens/imgusuario.jpg" id="abrirModal" alt="imagem de usuario" class="imagem-usuario">
+
+            <span class="nome-usuario">
+
+                <div id="logado"> </div>
+            </span>
+        </div>
+
+    </header>
+
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+
+    <div id="barraLateral" class="barra-lateral">
+        <a href="./inscrito.html"><b>Inicio</b></a>
+        <a href="./projetosAndamento.html"><b>Projetos</b></a>
+        <a href="./eventosAndamento.html"><b>Eventos Salvos</b></a>
+        <a href="#"><b>Eventos finalizados</b></a>
+        <a href="forum.html"><b>Forúns</b></a>
+        <a href="./materialApoio.html"><b>Materiais de apoio</b></a>
+    </div>
+
+    <div id="modalUsuario" class="modal">
+        <div class="modal-conteudo">
+            <span class="fechar-modal">&times;</span>
+            <h2>Informações do Usuário</h2><br>
+
+            <div class="info">
+                <span><b>Nome:</b></span>
+                <div id="logadoModal"></div>
+            </div>
+
+            <div class="info">
+                <span><b>E-mail:</b></span>
+                <div id="email"></div>
+            </div>
+
+            <div class="info">
+                <span><b>Telefone:</b></span>
+                <div id=></div>
+            </div>
+
+            <p><a href="configurarPerfil.html"><b>Editar Perfil</b></a> </p>
+
+            <p><a href="" onclick='Logout()'><b>Sair</b></a></p>
+
+        </div>
+    </div>
+
+    <main class="conteudo">
+
+        <h1><b>Eventos Em Andamento</b></h1>
+
+        <h1><b>AULAS SALVAS</b></h1>
+
+        <div class="materias">
+
+            <div id="videosSalvos"></div>
+
+        </div>
+
+        
+
+    </main>
+
+    <footer>
+        <p>&copy; 2023 SciMinds - Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        if (localStorage.getItem('token') == null) {
+            alert('Você precisa estar logado para acessar esta página')
+            window.location.href = './login.html'
+        }
+
+        function Logout() {
+            localStorage.removeItem('token')
+            window.location.href = './login.html'
+        }
+
+        // Recupera os dados de usuário
+        let userlogado = JSON.parse(localStorage.getItem('userlogado'))
+        let logado = document.querySelector('#logado')
+        let logadoModal = document.querySelector('#logadoModal');
+        let email = document.querySelector('#email')
+
+        logado.innerHTML = `${userlogado.nome}`
+        logadoModal.innerHTML = `${userlogado.nome}`;
+        email.innerHTML = `${userlogado.usuario}@gmail.com`
+
+
+    </script>
+
+
+    <script>
+        document.getElementById('abrirModal').addEventListener('click', function () {
+            document.getElementById('modalUsuario').style.display = 'block';
+        });
+
+        document.querySelector('.fechar-modal').addEventListener('click', function () {
+            document.getElementById('modalUsuario').style.display = 'none';
+        });
+
+        window.addEventListener('click', function (event) {
+            if (event.target == document.getElementById('modalUsuario')) {
+                document.getElementById('modalUsuario').style.display = 'none';
+            }
+        });
+    </script>
+
+    <script>
+        document.getElementById('btnMenuHamburguer').addEventListener('click', function () {
+            var barra = document.getElementById('barraLateral');
+
+            if (barra.style.width === "0px" || barra.style.width === "") {
+                barra.style.width = "250px";
+            } else {
+                barra.style.width = "0px";
+            }
+        });
+    </script>
+
+    <!-- barra de progresso-->
+
+    <script>
+        document.getElementsById("concluirAula").addEventListener("click", function () {
+            var barraProgresso = document.getElementsById("barraProgresso");
+            barraProgresso.style.width = "100%"; // Ajuste este valor conforme necessário
+        });
+
+    </script>
+
+
+    <script>
+        function carregarVideosSalvos() {
+            var videos = JSON.parse(localStorage.getItem('videosSalvos')) || [];
+            var container = document.getElementById('videosSalvos');
+
+            container.innerHTML = '';
+
+            videos.forEach(function (videoLink, index) {
+                var videoContainer = document.createElement('div');
+                videoContainer.classList.add('col');
+
+                videoContainer.innerHTML = `
+            <iframe width="560" height="315" src="${videoLink}" frameborder="0" allowfullscreen></iframe>
+            <br><br>
+            <div class="star-rating" id="rating-${index}">
+             <span class="star" onclick="setRating(${index}, 5)">&#9733;</span>
+             <span class="star" onclick="setRating(${index}, 4)">&#9733;</span>
+             <span class="star" onclick="setRating(${index}, 3)">&#9733;</span>
+             <span class="star" onclick="setRating(${index}, 2)">&#9733;</span>
+             <span class="star" onclick="setRating(${index}, 1)">&#9733;</span>
+            </div><br>
+            <button class="removerVideo" onclick="removerVideo(${index})">Remover Vídeo</button>
+        `;
+                container.appendChild(videoContainer);
+            });
+
+            applySavedRatings();
+        }
+
+        function setRating(videoIndex, rating) {
+            var ratings = JSON.parse(localStorage.getItem('videoRatings')) || {};
+            ratings[videoIndex] = rating;
+            localStorage.setItem('videoRatings', JSON.stringify(ratings));
+            applyRatingToVideo(videoIndex, rating);
+        }
+
+        function applyRatingToVideo(videoIndex, rating) {
+            var stars = document.querySelectorAll(`#rating-${videoIndex} .star`);
+            stars.forEach((star, index) => {
+                star.style.color = index >= 5 - rating ? 'gold' : 'grey';
+            });
+        }
+
+        function applySavedRatings() {
+            var ratings = JSON.parse(localStorage.getItem('videoRatings')) || {};
+            Object.keys(ratings).forEach(videoIndex => {
+                applyRatingToVideo(videoIndex, ratings[videoIndex]);
+            });
+        }
+
+        carregarVideosSalvos();
+
+        function removerVideo(index) {
+            var videos = JSON.parse(localStorage.getItem('videosSalvos')) || [];
+            var ratings = JSON.parse(localStorage.getItem('videoRatings')) || {};
+
+            // Remove o vídeo e sua classificação correspondente
+            videos.splice(index, 1);
+            delete ratings[index];
+
+            // Reajusta os índices das classificações restantes
+            var newRatings = {};
+            Object.keys(ratings).forEach((key) => {
+                if (key > index) {
+                    newRatings[key - 1] = ratings[key];
+                } else if (key < index) {
+                    newRatings[key] = ratings[key];
+                }
+            });
+
+            // Salva os dados atualizados no localStorage
+            localStorage.setItem('videosSalvos', JSON.stringify(videos));
+            localStorage.setItem('videoRatings', JSON.stringify(newRatings));
+
+            carregarVideosSalvos(); // Atualiza a lista de vídeos exibida
+        }
+
+
+        // Chame esta função quando a página for carregada
+        carregarVideosSalvos();
+
+    </script>
+
+</body>
+
+</html>
