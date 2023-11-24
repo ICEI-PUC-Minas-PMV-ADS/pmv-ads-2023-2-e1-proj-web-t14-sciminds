@@ -1,0 +1,90 @@
+@media (max-width: 768px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+  }
+
+  header {
+    padding: 150px 0;
+  }
+
+  #menuIcon {
+    display: block;
+  }
+
+  #mainNav {
+    display: none;
+    gap: 5px;
+  }
+
+  /* tela Login */
+  .container {
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    margin-top: 10px;
+    margin-bottom: -60px;
+    min-height: 100%;
+  }
+
+  .card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 4%;
+    box-shadow: 3px 3px 1px 0px #00000060;
+    width: 60%;
+  }
+
+  .videoaulas{
+    max-width: ;
+    height: ;
+  }
+
+  .comentarios {
+    float: none;
+    margin-top: 50%;
+  }
+
+  footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  header {
+    padding: 200px 0;
+  }
+
+  .procurar {
+    width: 35%;
+    float: none;
+    position: relative;
+    left: 35%;
+  }
+
+  #menuIcon {
+    font-size: 40px;
+    display: block;
+  }
+
+  #mainNav {
+    display: none;
+    gap: 5px;
+  }
+
+  
+
+  
+}

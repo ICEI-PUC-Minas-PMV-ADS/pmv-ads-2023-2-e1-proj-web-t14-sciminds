@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsividade.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <title>SCIMINDS</title>
+</head>
+
+<body>
+
+    <header class="cabecario">
+
+        <div class="login-container">
+            <a href="login.html">
+                <button>Login</button>
+            </a>
+        </div>
+
+    </header>
+
+    <div id="menuIcon">☰</div>
+    <nav id="mainNav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="inscricrever.html">Inscreva-se</a></li>
+        </ul>
+    </nav>
+    <br><br><br>
+
+    <main>
+        <div class='container'>
+            <div class='card'>
+                <h1> Login </h1>
+
+
+
+                <div class="label-float">
+                    <input type="text" id="usuario" placeholder=" " required>
+                    <label id="labelUsuario" for="usuario">Usuário</label>
+                </div>
+
+                <div class="label-float">
+                    <input type="password" id="senha" placeholder=" " required>
+                    <label id="labelSenha" for="senha">Senha</label>
+                    <i id="verSenha" class="fa fa-eye" aria-hidden="true"></i>
+
+                </div>
+
+                <div class='justify-center'>
+                    <button onclick='login()'>Login</button>
+                </div>
+
+
+                <p class="cadastre-se">Não tem uma conta?</p>
+                <a href="inscricrever.html">
+                    <button class="cadastrar">Cadastre-se</button>
+                </a>
+
+            </div>
+        </div>
+
+    </main>
+
+
+    <footer>
+        <p>&copy; 2023 SciMinds - Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        document.getElementById('menuIcon').addEventListener('click', function () {
+            var nav = document.getElementById('mainNav');
+
+            if (nav.style.display === 'none' || nav.style.display === '') {
+                nav.style.display = 'block';
+            } else {
+                nav.style.display = 'none';
+            }
+        });
+
+    </script>
+
+    <script>
+
+        document.getElementById('menusanduiche').addEventListener('click', function () {
+            var nav = document.getElementById('mainNav');
+
+            if (nav.style.display === 'none' || nav.style.display === '') {
+                nav.style.display = 'block';
+            } else {
+                nav.style.display = 'none';
+            }
+        });
+
+    </script>
+
+    <script>
+
+        let btn = document.querySelector('#verSenha')
+        let btnConfirm = document.querySelector('#verConfirmSenha')
+
+        let senha = document.querySelector('#senha')
+        let labelSenha = document.querySelector('#labelSenha')
+        let validSenha = false
+
+        senha.addEventListener('keyup', () => {
+            if (senha.value.length <= 5) {
+                labelSenha.setAttribute('style', 'color: red')
+                labelSenha.innerHTML = 'Senha'
+                senha.setAttribute('style', 'border-color: red')
+                validSenha = false
+            }
+            else {
+                labelSenha.setAttribute('style', 'color: green')
+                labelSenha.innerHTML = 'Senha'
+                senha.setAttribute('style', 'border-color: green')
+                validSenha = true
+            }
+        })
+
+
+        btn.addEventListener('click', () => {
+            let inputSenha = document.querySelector('#senha');
+
+            if (inputSenha.getAttribute('type') == 'password') {
+                inputSenha.setAttribute('type', 'text');
+                btnSenha.classList.add('fa-eye-slash');
+
+            } else {
+                inputSenha.setAttribute('type', 'password')
+                btnSenha.classList.remove('fa-eye-slash');
+                btnSenha.classList.add('fa-eye');
+
+            }
+        })
+
+        function login() {
+
+            let usuario = document.querySelector('#usuario')
+            let labelUsuario = document.querySelector('#labelUsuario')
+
+            let senha = document.querySelector('#senha')
+            let labelSenha = document.querySelector('#labelSenha')
+
+            let msgError = document.querySelector('#msgError')
+            let listaUser = []
+
+            let userValid = {
+                nome: '',
+                usuario: '',
+                senha: '',
+            }
+            listaUser = JSON.parse(localStorage.getItem('listaUser'))
+
+            listaUser.forEach((item) => {
+                if (usuario.value == item.userCad && senha.value == item.senhaCad) {
+
+                    userValid = {
+                        nome: item.nomeCad,
+                        usuario: item.userCad,
+                        senha: item.senhaCad
+                    }
+                }
+
+            })
+            if (usuario.value == '' && senha.value == '') {
+                alert('Usuario e senha em branco! \n Tente novamente!')
+            }
+
+            else if (usuario.value == userValid.usuario && senha.value == userValid.senha) {
+                window.location.href = 'inscrito.html'
+
+                let token = Math.random().toString(16).substr(2) + Math.random().toString(16).substr(2)
+                localStorage.setItem('token', token);
+
+                localStorage.setItem('userlogado', JSON.stringify(userValid))
+
+
+            } else {
+                alert('Usuário ou senha incorretos. \n Tente Novamente!')
+            }
+
+        }
+    </script>
+
+    <script>
+        document.getElementById('menuIcone').addEventListener('click', function () {
+            var nav = document.getElementById('mainNav');
+
+            if (nav.style.display === 'none' || nav.style.display === '') {
+                nav.style.display = 'block';
+            } else {
+                nav.style.display = 'none';
+            }
+        });
+
+    </script>
+
+</body>
+
+</html>

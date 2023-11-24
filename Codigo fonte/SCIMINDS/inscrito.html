@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="telaUsuario.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>SCIMINDS</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+
+        <a href="./index.html">
+            <img src="./Imagens/rocket e logo.png" id="rocket">
+        </a>
+
+        <div class="menu-hamburguer" id="btnMenuHamburguer">
+            &#9776;
+        </div>
+
+        <div class="grupo-direito">
+
+            <i class="fas fa-bell icone-notificacao"></i>
+
+            <img src="./Imagens/imgusuario.jpg" id="abrirModal" alt="imagem de usuario" class="imagem-usuario">
+
+            <span class="nome-usuario">
+
+                <div id="logado"> </div>
+            </span>
+        </div>
+
+    </header>
+
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+
+    <div id="barraLateral" class="barra-lateral">
+        <a href="./inscrito.html"><b>Inicio</b></a>
+        <a href="./projetosAndamento.html"><b>Projetos</b></a>
+        <a href="./eventosAndamento.html"><b>Eventos Salvos</b></a>
+        <a href="#"><b>Eventos finalizados</b></a>
+        <a href="forum.html"><b>Forúns</b></a>
+        <a href="./materialApoio.html"><b>Materiais de apoio</b></a>
+    </div>
+
+    <div id="modalUsuario" class="modal">
+        <div class="modal-conteudo">
+            <span class="fechar-modal">&times;</span>
+            <h2>Informações do Usuário</h2><br>
+
+            <div class="info">
+                <span><b>Nome:</b></span>
+                <div id="logadoModal"></div>
+            </div>
+
+            <div class="info">
+                <span><b>E-mail:</b></span>
+                <div id="email"></div>
+            </div>
+
+            <div class="info">
+                <span><b>Telefone:</b></span>
+                <div id=></div>
+            </div>
+
+            <p><a href="configurarPerfil.html"><b>Editar Perfil</b></a> </p>
+
+            <p><a href="" onclick='Logout()'><b>Sair</b></a></p>
+
+        </div>
+    </div>
+
+    <main class="conteudo">
+        <div class="progresso">
+            <h2>Meu Progresso</h2>
+            <br>
+            <div class="seminario">
+                
+                <a href="index.html#eventos" title="">
+                    <img src="./Imagens/fisica.png">
+                </a>
+                
+                <P class="TITULO_EVENTOS">IA, da academia ao mercado</P>
+                
+
+                <div class="progresso-container">
+                    <div id="barraProgressoContainer">
+                        <div id="barraProgresso" style="width: 0%; height: 20px; background-color: #4CAF50;"></div>
+                    </div>
+                    <button id="concluirAula">Evento Concluído</button>
+                </div>
+            </div>
+
+            <br><br>
+
+            <div class="seminario">
+                <a href="index.html#eventos" title="">
+                    <img src="./Imagens/matematica.png">
+                </a>
+                
+                <P class="TITULO_EVENTOS">Sérgio Sacani: Explorando o Cosmo</P>
+
+                <div class="progresso-container">
+                    <div id="barraProgressoContainer">
+                        <div id="barraProgresso2" style="width: 0%; height: 20px; background-color: #4CAF50;"></div>
+                    </div>
+                    <button id="concluirAula2">Evento Concluído</button>
+                </div>
+            </div>
+
+            <br><br>
+
+            <div class="seminario">
+                <a href="index.html#eventos" title="">
+                    <img src="./Imagens/quimica.png">
+                </a>
+                
+                <P class="TITULO_EVENTOS">Da NASA ao Hacking Ético</P>
+
+                <div class="progresso-container">
+                    <div id="barraProgressoContainer">
+                        <div id="barraProgresso3" style="width: 0%; height: 20px; background-color: #4CAF50;"></div>
+                    </div>
+                    <button id="concluirAula3">Evento Concluído</button>
+                </div>
+            </div>
+            <br><br>
+            <button class="questionario">Questionário</button>
+        </div>
+
+        <!-- Modal -->
+        <div id="modalQuestionario" class="modal">
+            <div class="modal-content">
+                <p><b>Responda:</b></p>
+                <span class="close">&times;</span>
+
+                <div id="questao1" class="questao">
+                    <p>Questão 1: Blogs, podcasts e redes sociais são ferramentas eficazes na divulgação científica
+                        contemporânea?</p>
+                    <input type="radio" id="q1v" name="questao1" value="V">
+                    <label for="q1v">Verdadeiro</label>
+                    <input type="radio" id="q1f" name="questao1" value="F">
+                    <label for="q1f">Falso</label>
+                </div>
+
+                <div id="questao2" class="questao">
+                    <p>Questão 2: O objetivo principal da divulgação científica é simplificar conceitos complexos para
+                        torná-los acessíveis a um público mais amplo?</p>
+                    <input type="radio" id="q2v" name="questao2" value="V">
+                    <label for="q2v">Verdadeiro</label>
+                    <input type="radio" id="q2f" name="questao2" value="F">
+                    <label for="q2f">Falso</label>
+                </div>
+
+                <div id="questao3" class="questao">
+                    <p>Questão 3: Nem todos os artigos científicos são considerados formas de divulgação científica?
+                    </p>
+                    <input type="radio" id="q3v" name="questao3" value="V">
+                    <label for="q3v">Verdadeiro</label>
+                    <input type="radio" id="q3f" name="questao3" value="F">
+                    <label for="q3f">Falso</label>
+                </div>
+
+                <div id="questao4" class="questao">
+                    <p>Questão 4: A divulgação científica não tem impacto na formação de políticas públicas relacionadas
+                        à ciência e tecnologia?</p>
+                    <input type="radio" id="q4v" name="questao4" value="V">
+                    <label for="q4v">Verdadeiro</label>
+                    <input type="radio" id="q4f" name="questao4" value="F">
+                    <label for="q4f">Falso</label>
+                </div>
+
+                <div id="questao5" class="questao">
+                    <p>Questão 5: A divulgação científica é responsável apenas por comunicar descobertas científicas ao
+                        público leigo?</p>
+                    <input type="radio" id="q5v" name="questao5" value="V">
+                    <label for="q5v">Verdadeiro</label>
+                    <input type="radio" id="q5f" name="questao5" value="F">
+                    <label for="q5f">Falso</label>
+                </div>
+
+
+                <div id="progressBarContainer">
+                    <div id="progressBar" style="width: 0%;"></div>
+                </div><br>
+                <button id="concluir" class="questionario">Concluir</button>
+
+            </div>
+        </div>
+
+    </main>
+
+
+    <footer>
+        <p>&copy; 2023 SciMinds - Todos os direitos reservados.</p>
+    </footer>
+
+
+    <script>
+        if (localStorage.getItem('token') == null) {
+            alert('Você precisa estar logado para acessar esta página')
+            window.location.href = './login.html'
+        }
+
+        function Logout() {
+            localStorage.removeItem('token')
+            window.location.href = './login.html'
+        }
+
+        // Recupera os dados de usuário
+        let userlogado = JSON.parse(localStorage.getItem('userlogado'))
+        let logado = document.querySelector('#logado')
+        let logadoModal = document.querySelector('#logadoModal');
+        let email = document.querySelector('#email')
+
+        logado.innerHTML = `${userlogado.nome}`
+        logadoModal.innerHTML = `${userlogado.nome}`;
+        email.innerHTML = `${userlogado.usuario}@gmail.com`
+
+
+    </script>
+
+    <!-- janela modal usuario-->
+
+    <script>
+        document.getElementById('abrirModal').addEventListener('click', function () {
+            document.getElementById('modalUsuario').style.display = 'block';
+        });
+
+        document.querySelector('.fechar-modal').addEventListener('click', function () {
+            document.getElementById('modalUsuario').style.display = 'none';
+        });
+
+        window.addEventListener('click', function (event) {
+            if (event.target == document.getElementById('modalUsuario')) {
+                document.getElementById('modalUsuario').style.display = 'none';
+            }
+        });
+    </script>
+
+    <!-- barra lateral-->
+
+    <script>
+        document.getElementById('btnMenuHamburguer').addEventListener('click', function () {
+            var barra = document.getElementById('barraLateral');
+
+            if (barra.style.width === "0px" || barra.style.width === "") {
+                barra.style.width = "250px";
+            } else {
+                barra.style.width = "0px";
+            }
+        });
+    </script>
+
+    <!-- barra de progresso-->
+
+    <script>
+        document.getElementById("concluirAula").addEventListener("click", function () {
+            var barraProgresso = document.getElementById("barraProgresso");
+            barraProgresso.style.width = "100%"; // Ajuste este valor conforme necessário
+        });
+
+        document.getElementById("concluirAula2").addEventListener("click", function () {
+            var barraProgresso = document.getElementById("barraProgresso2");
+            barraProgresso.style.width = "100%"; // Ajuste este valor conforme necessário
+        });
+
+        document.getElementById("concluirAula3").addEventListener("click", function () {
+            var barraProgresso = document.getElementById("barraProgresso3");
+            barraProgresso.style.width = "100%"; // Ajuste este valor conforme necessário
+        });
+
+    </script>
+
+    <!-- modal questionario -->
+    <script>
+        // Obtém o modal
+        var modal = document.getElementById("modalQuestionario");
+
+        // Obtém o botão que abre o modal
+        var btn = document.querySelector(".questionario");
+
+        // Obtém o elemento <span> que fecha o modal
+        var span = document.getElementsByClassName("close")[0];
+
+
+        // Quando o usuário clica no botão, abre o modal 
+        btn.onclick = function () {
+            modal.style.display = "block";
+        }
+
+        // Quando o usuário clica em <span> (x), fecha o modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        // Quando o usuário clica fora do modal, ele também se fecha
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+    </script>
+
+    <!-- logica das perguntas de v ou f-->
+
+    <script>
+
+        // Mapeamento das respostas corretas
+        const respostasCorretas = {
+            questao1: 'V',
+            questao2: 'V',
+            questao3: 'V',
+            questao4: 'F',
+            questao5: 'F'
+        };
+
+        // Armazenar as respostas do usuário
+        let respostasUsuario = {};
+
+        // Função para verificar as respostas e atualizar a barra de progresso
+        function verificarRespostasEAtualizarBarra() {
+            let acertos = 0;
+            for (let questao in respostasCorretas) {
+                if (respostasCorretas[questao] === respostasUsuario[questao]) {
+                    acertos++;
+                }
+            }
+            const progresso = acertos * 20;
+            document.getElementById('progressBar').style.width = `${progresso}%`;
+
+            // Definir um atraso antes de mostrar a mensagem e fechar a modal
+            setTimeout(() => {
+                // Mostrar a quantidade de respostas certas
+                alert(`Você acertou ${acertos} de 5 questões.`);
+
+                // Fechar a janela modal
+                document.getElementById('modalQuestionario').style.display = 'none';
+            }, 2000); // Ajuste o valor 2000 (2 segundos) conforme necessário
+        }
+
+        // Adicionando ouvintes de evento para cada botão de rádio
+        document.querySelectorAll('input[type=radio]').forEach(radio => {
+            radio.addEventListener('change', (event) => {
+                const questao = event.target.name;
+                const resposta = event.target.value;
+                respostasUsuario[questao] = resposta;
+            });
+        });
+
+        // Adicionando ouvinte de evento ao botão 'Concluir'
+        document.getElementById('concluir').addEventListener('click', verificarRespostasEAtualizarBarra);
+
+
+
+    </script>
+
+
+</body>
+
+</html>

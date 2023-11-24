@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsividade.css">
+    <title>SCIMINDS</title>
+</head>
+
+<body>
+    <header class="cabecario">
+
+        <div class="login-container">
+            <a href="login.html">
+                <button>Login</button>
+            </a>
+        </div>
+
+    </header>
+
+    <div id="menuIcon">☰</div>
+    <nav id="mainNav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="inscricrever.html">Inscreva-se</a></li>
+        </ul>
+    </nav>
+    <br>
+
+    <main class="videoaulas">
+
+        <section class="video">
+
+            <h2>Aulas ao Vivo</h2>
+
+            <iframe id="aulaIframe" width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+
+
+            <div class="comentarios">
+                <h3>Comentários</h3>
+                <div id="areaComentarios"></div>
+                <textarea id="campoComentario" placeholder="Escreva seu comentário..."></textarea>
+                <button onclick="adicionarComentario()">Enviar</button>
+
+                <button id="salvarVideo">Salvar Vídeo</button>
+            </div>
+
+        </section>
+
+
+
+        <footer>
+            <p>&copy; 2023 SciMinds - Todos os direitos reservados.</p>
+        </footer>
+
+    </main>
+
+    <script>
+        document.getElementById('menuIcon').addEventListener('click', function () {
+            var nav = document.getElementById('mainNav');
+
+            if (nav.style.display === 'none' || nav.style.display === '') {
+                nav.style.display = 'block';
+            } else {
+                nav.style.display = 'none';
+            }
+        });
+
+    </script>
+
+    <!-- barra de comentarios -->
+    <script>
+
+        function adicionarComentario() {
+            var comentario = document.getElementById('campoComentario').value;
+            var areaComentarios = document.getElementById('areaComentarios');
+            var novoComentario = document.createElement('p');
+            novoComentario.textContent = comentario;
+            areaComentarios.appendChild(novoComentario);
+            document.getElementById('campoComentario').value = '';
+        }
+
+    </script>
+
+    <!-- puxar o evento de acordo com a foto selecionada -->
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var params = new URLSearchParams(window.location.search);
+            var aula = params.get('aula');
+
+            var iframe = document.getElementById('aulaIframe');
+            if (aula === 'ferraz') {
+                iframe.src = 'https://www.youtube.com/embed/AenLGF1hdHo';
+            } else if (aula === 'sacani') {
+                iframe.src = 'https://www.youtube.com/embed/I1VWjpy3hZk';
+            } else if (aula === 'wanderley') {
+                iframe.src = 'https://www.youtube.com/embed/Oarl-owPJJ0'
+            }
+        });
+    </script>
+
+    <script>
+
+        document.querySelector('.concluirAula').addEventListener('click', function () {
+            var videoLink = document.getElementById('videoFrame').src;
+            var videos = JSON.parse(localStorage.getItem('videosSalvos')) || [];
+            if (videos.length < 6) {
+                videos.push(videoLink);
+                localStorage.setItem('videosSalvos', JSON.stringify(videos));
+                alert('Vídeo salvo!');
+            } else {
+                alert('Limite de 6 vídeos atingido!');
+            }
+        });
+
+    </script>
+
+    <script>
+        document.getElementById('salvarVideo').addEventListener('click', function () {
+            var videoLink = document.getElementById('aulaIframe').src;
+            var videos = JSON.parse(localStorage.getItem('videosSalvos')) || [];
+            if (videos.length < 6) {
+                videos.push(videoLink);
+                localStorage.setItem('videosSalvos', JSON.stringify(videos));
+                alert('Vídeo salvo!');
+            } else {
+                alert('Limite de vídeos atingido!');
+            }
+        });
+
+
+    </script>
+
+
+</body>
+
+</html>
