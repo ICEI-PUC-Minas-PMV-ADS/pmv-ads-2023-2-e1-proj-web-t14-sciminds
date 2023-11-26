@@ -66,5 +66,5 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 | Resultados obtidos |  disponibilização de materiais de ensino para cada curso desejado. |
 | Responsável pela execução do caso de Teste | GLEISON OLIVEIRA QUEIROZ |
 
-![SCIMINDS - material de apoio](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/blob/main/documentos/img/tela%20usuario1.mp4)
+![SCIMINDS - material de apoio](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t14-sciminds/blob/main/documentos/img/tela-usuario1.gif?raw=true)
 
