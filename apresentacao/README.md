@@ -5,7 +5,7 @@
 
 
 ## Vídeo de apresentação
-2. Apresentação video de fincionalidades
+2. Apresentação video de funcionalidades
 
 [Funcionalidades SciMinds](https://www.youtube.com/watch?v=vLROVrpfjm0&ab_channel=GleisonOliveira)
 
