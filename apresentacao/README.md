@@ -6,7 +6,7 @@
 
 ## Vídeo de apresentação
 
-[Nome do Vídeo](https://www.youtube.com/watch?v=vLROVrpfjm0&ab_channel=GleisonOliveira)
+[Funcionalidades SciMinds](https://www.youtube.com/watch?v=vLROVrpfjm0&ab_channel=GleisonOliveira)
 
 
 
