@@ -10,4 +10,4 @@
 
 ## Hospedagem
 
-[Adicione o endereço eletrônico público onde o site encontra-se hospedado.]
+Foi utilizada o GitHub Pages como ambiente de hospedagem, na URL: https://gleisonqueiroz.github.io/SCIMINDS/
