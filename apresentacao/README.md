@@ -6,7 +6,8 @@
 
 ## Vídeo de apresentação
 
-[![Nome do Vídeo](https://youtu.be/vLROVrpfjm0)
+[Nome do Vídeo](https://www.youtube.com/watch?v=vLROVrpfjm0&ab_channel=GleisonOliveira)
+
 
 https://youtu.be/vLROVrpfjm0
 
